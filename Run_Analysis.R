@@ -14,8 +14,9 @@ library(here)
 
 # Reproduce dataset macro_world.RData
 
-source(here("R/data-prep/a_value_added_data.R"))
-source(here("R/data-prep/b_data_prep.R"))
+#source(here("R/data-prep/a_value_added_data.R"))
+#source(here("R/data-prep/b_data_prep.R"))
+## dataset macro_world.RData already created and saved in data
 
 # Clustering
 
