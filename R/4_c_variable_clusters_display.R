@@ -1,7 +1,7 @@
 rm(list = ls())
 library(here)
 source(here("packages.R"))
-source(here("R/4_a_clusters_functions.R"))
+source(here("R/clustering/clusters_functions.R"))
 
 # Calculating and Visualizing all cluster results (different sets of vars ------
 # also creates sankey diagram
@@ -59,8 +59,6 @@ var_names <- c(
 
 variable_list <- list(
   `All Variables` = var_names,
-  #`Without ECI` = var_names[var_names != "ECI"],
-  #`Without GDP p.c.` = var_names[var_names != "GDPpcPPPDivFromMean"],
   `Take One Out` = var_names[var_names != "ECI"],
   `Excl. Sector Shares` = var_names[var_names != "AgricultureShareVA" & 
                                     var_names != "ManufacturingShareVA" & 
@@ -70,53 +68,7 @@ variable_list <- list(
                                                   var_names != "ManufacturingShareVA" & 
                                                   var_names != "MiningShareVA" &
                                                   var_names != "FinanceShareVA" &
-                                            var_names != "ECI"]#,
-  #`Macroeconomic Variables` = c("Unemp", "GDPpcPPPDivFromMean", "CAinPercGDP", 
-                     #   "XinPercGDP", "DebtPercGDP", "FDInetinflow")#, 
-  #`Macroeconomic Variables plus ECI` = c("Unemp", "GDPpcPPPDivFromMean", 
-  #                                      "CAinPercGDP", "XinPercGDP", "DebtPercGDP",
-  #                                       "FDInetinflow", "ECI"),
-  #`Macroeconomic Variables plus Gini` = c("Unemp", "GDPpcPPPDivFromMean", 
-  #                                       "CAinPercGDP", "XinPercGDP", "DebtPercGDP",
-  #                                       "FDInetinflow", "GiniMkt")
-  #`GDP not as dev` = c("GDPpcPPP", "Unemp", "XinPercGDP", "CAinPercGDP", 
-  #              "DebtPercGDP", "FinanceShareVA", "ManufacturingShareVA",
-  #              "AgricultureShareVA", "MiningShareVA", "GiniMkt",
-  #              "FDInetinflow", "ECI"), # GDPpcPPP instead of GDPpcPPPDivFromMean
-  #`Without Gini` = var_names[var_names != "GiniMkt"],
-  #`Without Unemp` = var_names[var_names != "Unemp"],
-  #`Without Exports` = var_names[var_names != "XinPercGDP"],
-  #`Without current ac` = var_names[var_names != "CAinPercGDP"],
-  #`Without debt` = var_names[var_names != "DebtPercGDP"],
-  #`Without FDI` = var_names[var_names != "FDInetinflow"],
-
-  #`Without Exports (% of GDP)` = var_names[var_names != "XinPercGDP"],
-  #`Without Finance Share` = var_names[var_names != "FinanceShareVA"],
-  #`W O ECI & GDP p.c.` = var_names[var_names != "ECI" & 
-  #                                 var_names != "GDPpcPPPDivFromMean"],
-  #`ECI` = "ECI",
-  #`GDP p.c. (Dev. from Mean)` = "GDPpcPPPDivFromMean",
-  #`Exports (% of GDP)` = "XinPercGDP",
-  #`GDP per capita (PPP)` = "GDPpcPPP",
-  #`Important Variables` = c("FinanceShareVA", "XinPercGDP", 
-  #                          "GDPpcPPPDivFromMean", "MiningShareVA", "GiniMkt",
-  #                          "FDInetinflow", "AgricultureShareVA", 
-  #                          "ManufacturingShareVA")
-  #`Gini on Market Income` = "GiniMkt",
-  #`Finance Share in GVA` = "FinanceShareVA"#,
-  #`Current Account Balance (% of GDP)` = "CAinPercGDP"#,
-  #`Mining Share in GVA` = "MiningShareVA",
-  #`Unemployment rate` = "Unemp",
-  #`FDI Net Inflows (% of GDP)` = "FDInetinflow",
-  #`FDI Net Outflows (% of GDP)` = "FDInetoutflow",
-  #`Absolute Net FDI flows (% of GDP)` = "FDIabsolute",
-  #`Share of Agriculture in Value Added` = "AgricultureShareVA",
-  #`Share of Manufacturing in Value Added` = "ManufacturingShareVA",
-  #`Public Debt (% of GDP)` = "DebtPercGDP"
-  #`Share of Labour Compensation in GDP` = "LaborShare",
-  #`Sector Shares` = c("FinanceShareVA", "ManufacturingShareVA", 
-  #                  "AgricultureShareVA", "MiningShareVA")#,
-)
+                                            var_names != "ECI"])
 
 # Number of country groupings
 
@@ -132,8 +84,7 @@ cluster_colors <- c( # to ensure that that the colors of the dendogram match
   "1" = "#925E9F",
   "2" = "#ED0000", 
   "4" = "#42B540", 
-  "3" = "#0099B4"#, 
-  #"5" = "#925E9F"
+  "3" = "#0099B4"
 )
 
 # Load and prepare macro_data --------------------------------------------------
@@ -214,10 +165,6 @@ for (i in seq_along(variable_list)) {
 
 all_dendos <- gridExtra::grid.arrange(grobs = dendo_all, ncol = 2)
 
-ggsave(here("output/dendograms/FE_Clust_EA_variable_selection_all.png"), 
-       all_dendos, 
-       width = 15, height = 11, dpi = 300)
-
 # Create Sankey diagram --------------------------------------------------------
 
 # Sankey shows groups with the "highest values" at the bottom
@@ -253,26 +200,12 @@ sankey_variable_selection <- create_sankey_selection(country_groupings_manipulat
                                                      cluster_colors)
 plot(sankey_variable_selection)
 
-# kmeans clustering
+# Figure 8: Sankey diagram -----------------------------------------------------
 
-kmeans_results <- kmeans(
-      `results_selection_All Variables`$weighted_distance, 
-  centers = k)
+ggsave(here(paste0("output/FE_Sankey_EA_selection.pdf")), 
+       sankey_variable_selection, 
+       width = 11, height = 6, dpi = 300, bg = "white")
 
-factor_map_kmeans <- fviz_cluster(list(
-  data = `results_selection_All Variables`$weighted_distance,
-  cluster = kmeans_results$cluster),
-  repel = TRUE, # Avoid label overlapping
-  show.clust.cent = TRUE, # Show cluster centers
-  palette = "Lancet", 
-  ggtheme = theme_minimal(),
-  main = "K-means Clustering of FE estimates")
-
-# Save the main results --------------------------------------------------------
-# (main dendogram and factor map already created and saved in 4_b_period_clusters_display.R)
-
-# Sankey diagram 
-
-ggsave(here(paste0("output/FE_Sankey_EA_selection.png")), 
+ggsave(here(paste0("output/FE_Sankey_EA_selection.svg")), 
        sankey_variable_selection, 
        width = 11, height = 6, dpi = 300, bg = "white")
