@@ -1,12 +1,3 @@
-library(here)
-library(tidyverse)
-library(sandwich)
-library(plm)
-library(cluster)
-library(factoextra)
-library(RColorBrewer)
-library(ggsci)
-
 # sources: based on R scripts in folder:
 # "EconomicPolarizationEU2025-main/R/clustering/utils/~.R" 
 # from: 
