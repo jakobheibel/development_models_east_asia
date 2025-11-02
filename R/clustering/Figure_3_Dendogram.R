@@ -76,5 +76,12 @@ ggsave(file = here("output/FE_Clust_Dendo.pdf"),
        device = cairo_pdf,
        dpi = 300)
 
-ggsave(file = here("output/FE_Clust_Dendo.png"),
-       width = 9, height = 6)
+ggsave(file = here("output/FE_Clust_Dendo.svg"),
+       plot = dend,
+       width = 9, height = 6,
+       bg = "white",
+       #device = cairo_pdf,
+       dpi = 300)
+
+#ggsave(file = here("output/FE_Clust_Dendo.png"),
+       #width = 9, height = 6, bg = "white")
