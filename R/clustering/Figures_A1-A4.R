@@ -58,21 +58,21 @@ time_periods <- c(#2000, 2006, # 1st start_year, 1st end_year
                   #2000, 2009, # 10 year period
                   #2005, 2014, # 10 years
                   #2010, 2019, # 10 years
-                  2000, 2004, # 5 year period
-                  #2000, 2002,
-                  #2002, 2004,
-                  #2004, 2006,
-                  #2006, 2008,
-                  #2008, 2010,
-                  #2010, 2012,
-                  #2012, 2014,
-                  #2014, 2017,
-                  #2017, 2019
-                  2003, 2007, # 5 years
-                  2006, 2010, # 5 years
-                  2009, 2014, # 5 years
-                  2012, 2016, # 5 years
-                  2015, 2019, # 5 years
+                  #2000, 2004, # 5 year period
+                  2000, 2002,
+                  2002, 2004,
+                  2004, 2006,
+                  2006, 2008,
+                  2008, 2010,
+                  2010, 2012,
+                  2012, 2014,
+                  2014, 2017,
+                  2017, 2019,
+                  #2003, 2007, # 5 years
+                  #2006, 2010, # 5 years
+                  #2009, 2014, # 5 years
+                  #2012, 2016, # 5 years
+                  #2015, 2019, # 5 years
                   2000, 2019  # 20 years
                   )
 # Selection for every single year
@@ -173,9 +173,23 @@ for (i in seq(1, length(time_periods), by = 2)) {
 
 all_dendos <- gridExtra::grid.arrange(grobs = dendo_all, ncol = 2)
 
-# Create Sankey diagram --------------------------------------------------------
+# Figure A4: Create Sankey diagram ---------------------------------------------
 
 create_sankey(country_groupings, time_periods, cluster_colors)
+
+# Sankey diagram 
+
+ggsave(here(paste0("output/FE_Sankey_EA_", 
+                   time_periods[1], "_", 
+                   time_periods[length(time_periods)], ".pdf")), 
+       create_sankey(country_groupings, time_periods, cluster_colors), 
+       width = 11, height = 6, dpi = 300, bg = "white")
+
+ggsave(here(paste0("output/FE_Sankey_EA_", 
+                   time_periods[1], "_", 
+                   time_periods[length(time_periods)], ".svg")), 
+       create_sankey(country_groupings, time_periods, cluster_colors), 
+       width = 11, height = 6, dpi = 300, bg = "white")
 
 # Further inquiries into the clustering results --------------------------------
 
