@@ -1,7 +1,7 @@
 rm(list = ls())
 library(here)
 source(here("packages.R"))
-source(here("R/4_a_clusters_functions.R"))
+source(here("R/clustering/clusters_functions.R"))
 
 # Calculating and Visualizing all cluster results across multiple periods ------
 # also creates sankey diagram
@@ -173,104 +173,9 @@ for (i in seq(1, length(time_periods), by = 2)) {
 
 all_dendos <- gridExtra::grid.arrange(grobs = dendo_all, ncol = 2)
 
-ggsave(here("output/dendograms/FE_Clust_EA_all.png"), 
-       all_dendos, 
-       width = 8, height = 10, dpi = 300)
-
 # Create Sankey diagram --------------------------------------------------------
 
 create_sankey(country_groupings, time_periods, cluster_colors)
-
-# Create factor map ------------------------------------------------------------
-# of main dendogram encompassing the complete period (start_year - end_year)
-# and all variables selected in var_names!
-
-factor_map_dim12 <- fviz_cluster(list(
-  data = get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-      )
-    )$weighted_distances,
-  cluster = get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-    )
-  )$groupings),
-  repel = TRUE, # Avoid label overlapping
-  show.clust.cent = TRUE, # Show cluster centers
-  palette = cluster_colors, 
-  ggtheme = theme_minimal(),
-  main = "Factor Map (Dim1 vs Dim2)"
-  ) +
-  labs(color = "Clusters") +
-  guides(color = "none") +
-  theme(legend.title = element_blank()
-  ) #+ coord_fixed()
-
-ggsave(here("output/FE_FactorMap_Dim1_Dim2_EA.png"), 
-       factor_map_dim12, 
-       width = 8, height = 6, dpi = 300, bg = "white")
-
-factor_map_dim23 <- fviz_cluster(list(
-  data = get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-    )
-  )$weighted_distances,
-  cluster = get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-    )
-  )$groupings),
-  repel = TRUE, # Avoid label overlapping
-  show.clust.cent = TRUE, # Show cluster centers
-  palette = cluster_colors,
-  axes = c(2,3),
-  ggtheme = theme_minimal(),
-  main = "Factor Map (Dim2 vs Dim3)"
-) +
-  labs(color = "Clusters") +
-  guides(color = "none") +
-  theme(legend.title = element_blank()
-  ) #+ coord_fixed()
-
-ggsave(here("output/FE_FactorMap_Dim2_Dim3_EA.png"), 
-       factor_map_dim23, 
-       width = 8, height = 6, dpi = 300, bg = "white")
-
-# kmeans clustering
-
-kmeans_results <- kmeans(
-  get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-      )
-    )$weighted_distances, 
-  centers = k)
-
-factor_map_kmeans <- fviz_cluster(list(
-  data = get(
-    paste0(
-      "results_", time_periods[1], "_", 
-      time_periods[length(time_periods)]
-      )
-    )$weighted_distances,
-  cluster = kmeans_results$cluster),
-  repel = TRUE, # Avoid label overlapping
-  show.clust.cent = TRUE, # Show cluster centers
-  palette = cluster_colors,
-  ggtheme = theme_minimal(),
-  main = "K-means Clustering of FE estimates"
-) +
-  labs(color = "Clusters") +
-  guides(color = "none") +
-  theme(legend.title = element_blank()
-  )
 
 # Further inquiries into the clustering results --------------------------------
 
@@ -290,60 +195,6 @@ weighted_distances <- get(
     time_periods[length(time_periods)]
   )
 )$weighted_distances
-
-
-groupings_result <- cutree(as.hclust(agnes_results), k = k)
-# change k here to produce silhouette plots for different number of clusters
-# and evaluate different cluster results (k = 4 standard result)
-
-# Silhouette width to see how good each country fits in its assigned cluster
-# compared to its "neighbor" cluster (i.e. the nearest one to which it does not
-# belong)
-# Results: Maximizing silhouette width with k = 3 
-
-sil <- silhouette(groupings_result, weighted_distances)
-
-rownames(sil) <- attr(weighted_distances, "Labels") # country names are too long for the plot
-# use iso codes
-rownames(sil) <- countrycode(rownames(sil), "country.name", "iso3c")
-
-png(here("output/silhouette_plot.png"), width = 6.5, height = 6.5, units = "in", res = 300)
-    #width = 650, height = 400)
-plot(sil,
-     col = c(#"#00468B"
-       "#925E9F","#ED0000", "#0099B4", "#42B540"
-                         ),
-                 #col = pal_lancet("lanonc")(4)[1:4], 
-                 main = "Silhouette Plot of Cluster Results 
-Clustering of FE Estimates (2000-2019)")
-dev.off()
-
-sil_plot2 <- fviz_silhouette(sil,
-                             palette = cluster_colors,
-                             ggtheme = theme_minimal()) +
-  labs(
-    title = "Silhouette Plot of Cluster Results",
-    subtitle = "Clustering of FE Estimates (2000-2019)",
-    x = "Silhouette Width",
-    y = "Countries"
-  ) +
-  theme_minimal() +
-  theme(
-    #panel.border = element_rect(color = "black", fill = NA, linewidth = 1),
-    axis.line = element_blank(),  # turn off default lines
-    axis.line.x.bottom = element_line(color = "black", linewidth = 0.5),
-    axis.line.y.left = element_line(color = "black", linewidth = 0.5),
-    axis.ticks = element_line(color = "black", linewidth = 0.5),  # add ticks
-    axis.ticks.length = unit(0.1, "cm"),  # size of ticks
-    axis.text = element_text(color = "black", size = 12),
-    panel.border = element_blank(),  # remove full border
-    panel.grid.minor = element_blank()
-  )
-
-sil_plot2
-
-# Indonesia seems to be out of cluster 1, maybe better placed in neighboring
-# cluster 2 (also can be seen in the factor maps)
 
 # Create a histogram to show where the cut in k groups has taken place
 # (for the main dendrogram encompassing the complete period)
@@ -438,13 +289,18 @@ step_plot <- ggplot(df_ordered, aes(x = Number_of_clusters, y = Height)) +
 
 step_plot
 
-ggsave(here("output/step_plot.png"), 
+ggsave(here("output/step_plot.pdf"), 
+       step_plot,
+       width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
+
+ggsave(here("output/step_plot.svg"), 
        step_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
        #width = 8, height = 8, dpi = 300, bg = "white")
 
 # Gap statistic to evaluate the optimal number of clusters
 
+set.seed(123)
 gap_stat <- clusGap(
   as.matrix(weighted_distances), 
   FUN = hcut, # hierarchical cut (not a partition method like kmeans)
@@ -484,10 +340,13 @@ gap_stat_plot <- fviz_gap_stat(gap_stat,
 
 gap_stat_plot
 
-ggsave(here("output/gap_stat_plot.png"),
+ggsave(here("output/gap_stat_plot.pdf"),
        gap_stat_plot,
-       width = 6.5, height = 6.5, dpi = 300, units = "in", bg = "white")
-       #width = 8, height = 8, dpi = 300, bg = "white")
+       width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
+
+ggsave(here("output/gap_stat_plot.svg"),
+       gap_stat_plot,
+       width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
 # further metrics 
 
@@ -517,72 +376,12 @@ elbow_plot <- fviz_nbclust(
 
 elbow_plot
 
-ggsave(here("output/elbow_plot.png"),
+ggsave(here("output/elbow_plot.pdf"),
        elbow_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
-       #width = 8, height = 8, dpi = 300, bg = "white")
+
+ggsave(here("output/elbow_plot.svg"),
+       elbow_plot,
+       width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
 # indicating a solution with 3 or perhaps 4 clusters
-
-# Save the main results --------------------------------------------------------
-
-# Main dendogram 
-
-ggsave(here(paste0("output/FE_Clust_EA_", 
-                   time_periods[1], "_", 
-                   time_periods[length(time_periods)], ".png")), 
-       dendo_all[[paste0("dendo_", 
-                          time_periods[1], "_", 
-                          time_periods[length(time_periods)])]],
-       width = 8, height = 6, dpi = 300)
-
-# Main dendogram with factor map
-
-dendo_factor <- ggpubr::ggarrange(
-  dendo_all[[paste0("dendo_", time_periods[1], "_", time_periods[length(time_periods)])]],
-  factor_map_dim12,
-  ncol = 2, nrow = 1,
-  widths = c(2, 1))
-
-ggsave(here(paste0("output/FE_Clust_Factor_EA_",
-                   time_periods[1], "_",
-                   time_periods[length(time_periods)], ".png")),
-       dendo_factor,
-       width = 11, height = 6, dpi = 300, bg = "white")
-
-factor_maps_more_dim_row <- ggpubr::ggarrange(
-  factor_map_dim12,
-  factor_map_dim23,
-  ncol = 2 #,labels = c("B", "C")
-)
-
-dendo_factor_more_dim <- ggpubr::ggarrange(
-  dendo_all[[paste0("dendo_", time_periods[1], "_", time_periods[length(time_periods)])]],
-  factor_maps_more_dim_row,
-  ncol = 1, nrow = 2,
-  heights = c(1, 1))
-
-ggsave(here(paste0("output/FE_Clust_Factor_EA_",
-                   time_periods[1], "_",
-                   time_periods[length(time_periods)], "_more_dim.png")),
-       dendo_factor_more_dim,
-       width = 11, height = 13.53734, dpi = 300, bg = "white")
-
-# Sankey diagram 
-
-ggsave(here(paste0("output/FE_Sankey_EA_", 
-                   time_periods[1], "_", 
-                   time_periods[length(time_periods)], ".png")), 
-       create_sankey(country_groupings, time_periods, cluster_colors), 
-       width = 11, height = 6, dpi = 300, bg = "white")
-
-# Cluster dendrogram for the complete period using standard approach to 
-# calculate distances (no SE-weighted distances)
-
-ggsave(here(paste0("output/FE_Clust_EA_STANDARD_DISTANCES_",
-                   time_periods[1], "_",
-                   time_periods[length(time_periods)], ".png")),
-       get(paste0("results_", 
-                   time_periods[1], "_", 
-                   time_periods[length(time_periods)]))$dendo_standard,
-       width = 8, height = 6, dpi = 300)
