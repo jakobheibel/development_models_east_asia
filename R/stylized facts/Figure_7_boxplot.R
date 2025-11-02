@@ -18,7 +18,7 @@ library(purrr)
 library(ggpubr)
 
 # Source utility functions
-source(here("R/7_boxplot_utils.R"))
+source(here("R/stylized facts/Figure_7_boxplot_utils.R"))
 
 # Import data
 load(here("data/macro_world.RData"))
