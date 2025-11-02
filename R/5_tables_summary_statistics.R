@@ -27,7 +27,7 @@ EA3 <- c(#"Brunei", # missing data (ECI)
 ISO_list_EA3 <- c("TWN", "CHN", "HKG", "IDN", "JPN", "KOR", "MYS", "PHL", "SGP",
                   "THA", "VNM", "MNG", "MMR", "KHM", "LAO")
 
-# Country Summary Tables (from 1_data_prep.R) ----------------------------------
+# Country Summary Tables (from data_prep.R) ----------------------------------
 
 load(here("data/macro_summary_years.RData"))
 load(here("data/macro_summary_years_EA.RData"))
@@ -268,7 +268,7 @@ w_k <- results$variable_weights %>%
   
 xtable(w_k, digits = 4)
 
-# Table on countries, for chapter 1
+# Figure 1 ---------------------------------------------------------------------
 # Population - Penn Penn World Table 10.0
 # GDP p.c. PPP - IMF
 # average GDP growth rate over the period 2000-2019 - IMF
@@ -355,45 +355,6 @@ rm(vdem_raw)
 convergence_bubble_data <- penn_pop %>% 
   left_join(growth_rate_data) %>%
   left_join(libdem_avg)
-  
-#WEO_avg_growth <- WEOvars %>% 
-#  select(ISO, Country, Year, GDPgrowthIMF) %>%
-#  filter(ISO %in% ISO_list_EA3,
-#         Year >= 2000 & Year <= 2019) %>% 
-#  group_by(ISO, Country) %>%
-#  summarise(`Average GDP growth, in % (2000-2019)` = 
-#              mean(GDPgrowthIMF, na.rm = TRUE)) %>%
-#  ungroup() %>% 
-#  select(-ISO) %>%
-#  mutate(Country = recode(Country,
-#                          "Hong Kong SAR" = "Hong Kong",
-#                          "Korea" = "South Korea",
-#                          "Lao P.D.R." = "Laos",
-#                          "Taiwan Province of China" = "Taiwan")) %>% 
-#  left_join(penn_pop, by = "Country") %>% 
-#  left_join(WEO_GDPpc2000, by = "Country") %>%
-#  left_join(WEO_GDPpc2019, by = "Country") %>% 
-#  left_join(libdem_avg) %>% 
-  # Alphabetically sort by country
-#  arrange(Country)
-
-#xtable(WEO_avg_growth, digits = 2)
-
-# join with cluster results
-
-cluster_assignments <- enframe(results$groupings,
-                               name = "Country",
-                               value = "Cluster")
-
-convergence_bubble_data <- WEO_avg_growth %>%
-  left_join(cluster_assignments, by = "Country")
-
-cluster_colors <- c( 
-  "1" = "#925E9F", # periphery
-  "2" = "#ED0000", # emerging
-  "4" = "#42B540", # developmental states
-  "3" = "#0099B4" # financial hubs
-)
 
 # Convergence bubble plot
 
@@ -452,194 +413,8 @@ convergence_bubble
 
 ggsave(here("output/convergence_bubble.pdf"),
        convergence_bubble,
-       width = 9.5, height = 5.18, dpi = 300, units = "in", bg = "white")
+       width = 11, height = 6, dpi = 300, units = "in", bg = "white")
 
-# convergence bubble plot but with cluster assignments (colors)
-
-convergence_bubble_clusters <- ggplot(convergence_bubble_data, aes(
-  #x = `GDP p.c. at PPP, in 2017 intl. $ (2019)`,
-  x = `GDP p.c. at PPP, in 2017 intl. $ (2000)`,
-  y = `Average GDP growth, in % (2000-2019)`,
-  size = `Population, in millions (2019)`,
-  color = factor(Cluster)
-)) +
-  geom_point(alpha = 1) +
-  geom_text_repel(
-    aes(label = Country),
-    size = 3.5,
-    nudge_x = 0.15,
-    direction = "y",
-    segment.color = "black",
-    segment.size = 0.4,
-    box.padding = 0.5,
-    show.legend = FALSE
-  ) +
-  #scale_size_continuous(range = c(2, 15), guide = "legend") +
-  scale_size_continuous(
-    range = c(1, 15),
-    breaks = c(5, 20, 100, 500, 1000),
-    #labels = c("10m", "50m", "100m", "500m", "1b"),
-    guide = "legend"
-  ) +
-  scale_color_manual(values = cluster_colors,
-                     labels = c("1" = "Periphery",
-                                "2" = "Emerging",
-                                "3" = "Finance",
-                                "4" = "Developmental")) +
-  scale_x_log10(labels = scales::comma,
-                expand = expansion(mult = c(0.01, 0.01))) +
-  scale_y_continuous(expand = expansion(mult = c(0.05, 0.05))) +
-  labs(
-    title = "Country sample",
-    #x = "GDP p.c. at PPP, in 2017 intl. $ (log scale, 2019)",
-    x = "GDP p.c. at PPP, in 2017 intl. $ (log scale, 2000)",
-    y = "Average GDP growth, in % (2000–2019)",
-    size = "Population (millions, 2019)",
-    color = "Cluster Assignments"
-  ) +
-  theme_minimal(base_size = 14) +
-  theme(
-    axis.line = element_blank(),
-    axis.line.x.bottom = element_line(color = "black", linewidth = 0.5),
-    axis.line.y.left   = element_line(color = "black", linewidth = 0.5),
-    axis.ticks = element_line(color = "black", linewidth = 0.5),
-    axis.ticks.length = unit(0.1, "cm"),
-    axis.text = element_text(color = "black", size = 12),
-    panel.border = element_blank(),
-    panel.grid.minor = element_blank(),
-    legend.position = "right"
-  )
-
-convergence_bubble_clusters
-
-ggsave(here("output/convergence_bubble_clusters.pdf"),
-       convergence_bubble_clusters,
-       width = 9.5, height = 5.18, dpi = 300, units = "in", bg = "white")
-
-# vector plot: gdp p.c. development 2000 -> 2019
-
-convergence_vector_plot <- ggplot(convergence_bubble_data) +
-  geom_segment(aes(
-    x = `GDP p.c. at PPP, in 2017 intl. $ (2000)`,
-    y = `Average GDP growth, in % (2000-2019)`,
-    xend = `GDP p.c. at PPP, in 2017 intl. $ (2019)`,
-    yend = `Average GDP growth, in % (2000-2019)`,
-    #size = `Population, in millions (2019)`,
-    color = factor(Cluster)
-  ),
-  arrow = arrow(length = unit(0.25, "cm")),
-  alpha = 0.8
-  ) +
-  # Country labels above the arrow head, in the same color
-  geom_text(aes(
-    x = `GDP p.c. at PPP, in 2017 intl. $ (2019)`,
-    y = `Average GDP growth, in % (2000-2019)`,
-    label = Country,
-    color = factor(Cluster)
-  ),
-  vjust = -0.8,   # put label above the point
-  hjust = 1,
-  size = 3.5,
-  show.legend = FALSE
-  ) +
-  #geom_point(aes(
-  #  x = `GDP p.c. at PPP, in 2017 intl. $ (2019)`, 
-  #  y = `Average GDP growth, in % (2000-2019)`,
-  #  size = `Population, in millions (2019)`,
-  #  color = factor(Cluster)
-  #), size = 3, alpha = 0.8) +
-  #geom_text_repel(aes(
-  #  x = `GDP p.c. at PPP, in 2017 intl. $ (2019)`, 
-  #  y = `Average GDP growth, in % (2000-2019)`, 
-  #  label = Country
-  #),
-  #size = 3.5, direction = "y", nudge_x = 0.15,
-  #segment.color = "black", segment.size = 0.4,
-  #box.padding = 0.5, show.legend = FALSE
-  #) +
-  scale_x_log10(labels = scales::comma,
-                expand = expansion(mult = c(0.01, 0.01))) +
-  scale_y_continuous(expand = expansion(mult = c(0.05, 0.05))) +
-  scale_size_continuous(range = c(1, 15),
-                        breaks = c(5, 20, 100, 500, 1000),
-                        guide = "legend") +
-  scale_color_manual(values = cluster_colors,
-                     labels = c("1" = "Periphery",
-                                "2" = "Emerging",
-                                "3" = "Finance",
-                                "4" = "Developmental")) +
-  labs(
-    title = "Growth Paths in East Asia, 2000–2019",
-    x = "GDP p.c. at PPP, in 2017 intl. $ (log scale)",
-    y = "Average GDP growth, in % (2000–2019)",
-    size = "Population (millions, 2019)",
-    color = "Cluster Assignments"
-  ) +
-  theme_minimal(base_size = 14) +
-  theme(
-    axis.line.x.bottom = element_line(color = "black", linewidth = 0.5),
-    axis.line.y.left   = element_line(color = "black", linewidth = 0.5),
-    axis.ticks = element_line(color = "black", linewidth = 0.5),
-    axis.ticks.length = unit(0.1, "cm"),
-    axis.text = element_text(color = "black", size = 12),
-    panel.grid.minor = element_blank(),
-    legend.position = "right"
-  )
-
-convergence_vector_plot
-
-ggsave(here("output/convergence_vector_plot.png"),
-       convergence_vector_plot,
-       width = 9.5, height = 5.18, dpi = 300, units = "in", bg = "white")
-
-
-# Period Coverge Optimization --------------------------------------------------
-
-# Convert to long format and extract the periods:
-years_long <- years %>%
-  pivot_longer(-Country, names_to = "variable", values_to = "period") %>%
-  filter(!is.na(period)) %>%  # remove cells with NA periods
-  mutate(start = as.numeric(str_extract(period, "^\\d{4}")), #regex :(
-         end   = as.numeric(str_extract(period, "\\d{4}$"))) %>% 
-  filter(variable != "Liberal Democracy Index")
-
-common_periods <- years_long %>%
-  group_by(variable) %>%
-  summarise(common_start = max(start, na.rm = TRUE),
-            common_end   = min(end, na.rm = TRUE)) %>%
-  filter(common_start <= common_end) %>%  # ensure valid periods
-  mutate(span = common_end - common_start + 1)
-
-w_k2 <- results$variable_weights %>% 
-  select(variable, avg_weight) %>% 
-  rename(#Variable = variable,
-         `Scaling Factor` = avg_weight) %>% 
-  # recode the elements in column Variable
-  mutate(variable = recode(variable, !!!var_name_replacement))
-
-common_periods <- common_periods %>% # consider weights!
-  left_join(w_k2, by = "variable")
-
-# Unique candidate start and end years
-candidate_starts <- sort(unique(common_periods$common_start))
-candidate_ends <- sort(unique(common_periods$common_end))
-
-# Create candidate periods (only where start <= end)
-candidates <- expand.grid(start = candidate_starts, end = candidate_ends) %>%
-  filter(start <= end)
-
-result <- candidates %>%
-  rowwise() %>%
-  # For each candidate period, sum the weights of variables that covers
-  # the period
-  mutate(total_weight = sum(common_periods$`Scaling Factor`[
-    common_periods$common_start <= start & 
-      common_periods$common_end >= end
-  ]),
-  span = end - start + 1) %>%
-  ungroup() %>%
-  arrange(desc(total_weight), desc(span)) %>% 
-  mutate(period_score = (0.5*sqrt(span)) + (2*total_weight))
-# idea period_score: reward longer periods and reward weights differently
-# period 2000-2019 seems to be the best mix out of reasonably large span (20 years)
-# and good coverage of variables
+ggsave(here("output/convergence_bubble.svg"),
+       convergence_bubble,
+       width = 11, height = 6, dpi = 300, units = "in", bg = "white")
