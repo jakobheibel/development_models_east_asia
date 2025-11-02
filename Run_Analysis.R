@@ -12,11 +12,10 @@
 rm(list = ls())
 library(here)
 
-# Reproduce dataset macro_world.RData and tables describing the data sources
+# Reproduce dataset macro_world.RData
 
 source(here("R/data-prep/a_value_added_data.R"))
 source(here("R/data-prep/b_data_prep.R"))
-source(here("R/data-prep/Tables_1-2_Tables_A1_A3.R"))
 
 # Clustering
 
@@ -26,10 +25,13 @@ source(here("R/clustering/Figure_8.R"))
 ## script also creates cluster objects used later
 source(here("R/clustering/Figure_3_Dendogram.R"))
 source(here("R/clustering/Figure_4_MDS_Factor_Map.R"))
-source(here("R/clustering/clusters_functions.R"))
+
+# Tables with data sources and scaling factors
+
+source(here("R/data-prep/Tables_1-2_Tables_A1_A3.R"))
 
 # Stylized facts
 
-source(here("R/stylized facts/Figure_2_correlations_matrix.R"))
+source(here("R/stylized facts/Figure_2_correlation_matrix.R"))
 source(here("R/stylized facts/Figure_7_boxplot.R"))
 source(here("R/stylized facts/Figures_5_6.R"))
