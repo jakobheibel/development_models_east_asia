@@ -1,7 +1,7 @@
 rm(list = ls())
 library(here)
 source(here("packages.R"))
-source(here("R/clustering/clusters_functions.R"))
+source(here("R/clustering/utils/clusters_functions.R"))
 
 # Calculating and Visualizing all cluster results (different sets of vars ------
 # also creates sankey diagram

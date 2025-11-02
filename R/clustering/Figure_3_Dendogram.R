@@ -16,7 +16,7 @@ library(ggplot2)
 #library(grid)
 
 # Source helper functions
-source(here("R/4_z_helper_functions.R"))
+source(here("R/clustering/utils/helper_functions.R"))
 
 # Load results
 load(here("output/cluster_results/FE_Clust_EA_2000_2019.Rdata"))
