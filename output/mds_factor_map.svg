@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='756.00pt' height='504.00pt' viewBox='0 0 756.00 504.00'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3NTYuMDB8MC4wMHw1MDQuMDA='>
+    <rect x='0.00' y='0.00' width='756.00' height='504.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHw1MDQuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNC4zN3w3NTEuNjN8MC4wMHw1MDQuMDA='>
+    <rect x='4.37' y='0.00' width='747.25' height='504.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNC4zN3w3NTEuNjN8MC4wMHw1MDQuMDA=)'>
+<rect x='4.37' y='0.00' width='747.25' height='504.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHw1MDQuMDA=)'>
+<rect x='24.10' y='22.68' width='722.54' height='391.32' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<polyline points='24.10,394.77 746.64,394.77 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='24.10,306.56 746.64,306.56 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='24.10,218.34 746.64,218.34 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='24.10,130.12 746.64,130.12 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='24.10,41.91 746.64,41.91 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='32.51,414.00 32.51,22.68 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='208.94,414.00 208.94,22.68 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='385.37,414.00 385.37,22.68 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='561.81,414.00 561.81,22.68 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='738.24,414.00 738.24,22.68 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polygon points='600.15,233.93 482.78,244.61 529.47,118.95 610.56,162.76 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #925E9F; fill-opacity: 0.12;' />
+<polygon points='367.23,268.43 321.63,215.48 389.12,229.98 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #ED0000; fill-opacity: 0.12;' />
+<polygon points='140.55,40.47 56.94,161.91 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #0099B4; fill-opacity: 0.12;' />
+<polygon points='305.63,316.29 260.66,330.38 253.81,301.95 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #42B540; fill-opacity: 0.12;' />
+<polygon points='600.15,233.93 482.78,244.61 529.47,118.95 610.56,162.76 ' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt;' />
+<polygon points='367.23,268.43 321.63,215.48 389.12,229.98 ' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt;' />
+<polygon points='140.55,40.47 56.94,161.91 ' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt;' />
+<polygon points='305.63,316.29 260.66,330.38 253.81,301.95 ' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt;' />
+<line x1='24.10' y1='218.34' x2='746.64' y2='218.34' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
+<line x1='385.37' y1='414.00' x2='385.37' y2='22.68' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
+<line x1='385.37' y1='218.34' x2='225.41' y2='200.07' style='stroke-width: 3.23; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='229.55,199.08 225.41,200.07 229.22,201.97 ' style='stroke-width: 3.23; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='234.48' y2='239.58' style='stroke-width: 1.09; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='238.24,237.58 234.48,239.58 238.64,240.46 ' style='stroke-width: 1.09; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='359.93' y2='278.37' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='360.15,274.12 359.93,278.37 362.83,275.26 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='232.72' y2='145.00' style='stroke-width: 2.59; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='236.95,145.42 232.72,145.00 235.69,148.04 ' style='stroke-width: 2.59; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='358.71' y2='360.70' style='stroke-width: 1.66; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='358.02,356.50 358.71,360.70 360.88,357.04 ' style='stroke-width: 1.66; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='543.66' y2='195.63' style='stroke-width: 1.54; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='539.91,197.63 543.66,195.63 539.50,194.75 ' style='stroke-width: 1.54; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='481.48' y2='160.03' style='stroke-width: 2.00; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='478.82,163.35 481.48,160.03 477.31,160.86 ' style='stroke-width: 2.00; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='298.15' y2='187.89' style='stroke-width: 1.88; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='302.40,187.83 298.15,187.89 301.44,190.58 ' style='stroke-width: 1.88; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='311.78' y2='67.59' style='stroke-width: 1.47; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='314.84,70.55 311.78,67.59 312.22,71.82 ' style='stroke-width: 1.47; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='385.37' y1='218.34' x2='233.69' y2='301.84' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='236.49,298.64 233.69,301.84 237.89,301.19 ' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<text x='240.46' y='195.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='240.26' y='194.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.96' y='194.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.61' y='194.45' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.26' y='194.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='238.96' y='194.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='238.76' y='195.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='238.69' y='195.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='238.76' y='195.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='238.96' y='196.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.26' y='196.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.61' y='196.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.96' y='196.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='240.26' y='196.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='240.46' y='195.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='240.53' y='195.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='239.61' y='195.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='221.66' y='249.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.46' y='249.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.17' y='249.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.81' y='249.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.46' y='249.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.17' y='249.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='219.97' y='249.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='219.90' y='250.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='219.97' y='250.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.17' y='250.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.46' y='250.85' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.81' y='250.92' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.17' y='250.85' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.46' y='250.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.66' y='250.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='221.73' y='250.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='220.81' y='250.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='346.97' y='288.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.77' y='288.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.47' y='288.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.12' y='288.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.77' y='288.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.47' y='288.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.27' y='288.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.20' y='289.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.27' y='289.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.47' y='289.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='345.77' y='289.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.12' y='290.04' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.47' y='289.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.77' y='289.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.97' y='289.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='347.04' y='289.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='346.12' y='289.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='247.20' y='140.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='247.00' y='139.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.70' y='139.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.35' y='139.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.00' y='139.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='245.70' y='139.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='245.50' y='140.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='245.43' y='140.41' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='245.50' y='140.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='245.70' y='141.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.00' y='141.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.35' y='141.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.70' y='141.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='247.00' y='141.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='247.20' y='140.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='247.27' y='140.41' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='246.35' y='140.41' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='345.34' y='370.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='345.14' y='370.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.84' y='370.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.49' y='370.40' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.14' y='370.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='343.84' y='370.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='343.64' y='370.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='343.57' y='371.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='343.64' y='371.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='343.84' y='371.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.14' y='372.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.49' y='372.24' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.84' y='372.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='345.14' y='371.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='345.34' y='371.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='345.41' y='371.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='344.49' y='371.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='558.23' y='190.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='558.03' y='190.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.73' y='190.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.38' y='190.29' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.03' y='190.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='556.73' y='190.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='556.53' y='190.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='556.46' y='191.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='556.53' y='191.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='556.73' y='191.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.03' y='192.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.38' y='192.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.73' y='192.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='558.03' y='191.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='558.23' y='191.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='558.30' y='191.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='557.38' y='191.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='496.38' y='154.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='496.18' y='154.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.88' y='154.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.53' y='154.40' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.18' y='154.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='494.88' y='154.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='494.68' y='154.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='494.61' y='155.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='494.68' y='155.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='494.88' y='155.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.18' y='156.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.53' y='156.24' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.88' y='156.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='496.18' y='155.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='496.38' y='155.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='496.45' y='155.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='495.53' y='155.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='312.97' y='182.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.77' y='182.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.47' y='182.29' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.12' y='182.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.77' y='182.29' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.47' y='182.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.27' y='182.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.20' y='183.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.27' y='183.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.47' y='183.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='311.77' y='183.98' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.12' y='184.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.47' y='183.98' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.77' y='183.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.97' y='183.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='313.04' y='183.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='312.12' y='183.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='298.70' y='77.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.50' y='77.42' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.20' y='77.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.85' y='77.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.50' y='77.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.20' y='77.42' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.00' y='77.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='296.93' y='78.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.00' y='78.42' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.20' y='78.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.50' y='78.91' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.85' y='78.98' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.20' y='78.91' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.50' y='78.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.70' y='78.42' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='298.77' y='78.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='297.85' y='78.06' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='222.09' y='311.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.89' y='311.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.59' y='310.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.24' y='310.92' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.89' y='310.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.59' y='311.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.39' y='311.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.32' y='311.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.39' y='312.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.59' y='312.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='220.89' y='312.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.24' y='312.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.59' y='312.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.89' y='312.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='222.09' y='312.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='222.16' y='311.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='221.24' y='311.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Arial";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<circle cx='577.30' cy='186.97' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='367.23,262.07 372.74,271.61 361.72,271.61 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<polygon points='136.46,44.56 144.64,44.56 144.64,36.38 136.46,36.38 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
+<circle cx='482.78' cy='244.61' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='256.57,330.38 260.66,326.29 264.75,330.38 260.66,334.47 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<circle cx='610.56' cy='162.76' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='321.63,209.12 327.13,218.66 316.12,218.66 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<circle cx='529.47' cy='118.95' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<circle cx='600.15' cy='233.93' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='389.12,223.62 394.62,233.16 383.61,233.16 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<polygon points='52.86,166.00 61.03,166.00 61.03,157.82 52.86,157.82 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
+<polygon points='301.55,316.29 305.63,312.20 309.72,316.29 305.63,320.38 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<polygon points='249.72,301.95 253.81,297.86 257.90,301.95 253.81,306.03 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<polygon points='371.69,247.55 377.20,257.08 366.18,257.08 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<circle cx='513.07' cy='209.12' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<text x='588.02' y='184.13' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='38.91px' lengthAdjust='spacingAndGlyphs'>Cambodia</text>
+<text x='383.58' y='264.48' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Arial";' textLength='22.30px' lengthAdjust='spacingAndGlyphs'>China</text>
+<text x='154.46' y='35.94' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Arial";' textLength='42.72px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
+<text x='468.84' y='255.25' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='37.03px' lengthAdjust='spacingAndGlyphs'>Indonesia</text>
+<text x='246.52' y='341.11' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Arial";' textLength='23.27px' lengthAdjust='spacingAndGlyphs'>Japan</text>
+<text x='601.12' y='170.89' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='18.52px' lengthAdjust='spacingAndGlyphs'>Laos</text>
+<text x='335.58' y='210.86' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Arial";' textLength='33.67px' lengthAdjust='spacingAndGlyphs'>Malaysia</text>
+<text x='515.49' y='129.53' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='34.64px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
+<text x='585.96' y='244.70' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='35.58px' lengthAdjust='spacingAndGlyphs'>Myanmar</text>
+<text x='363.47' y='235.82' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Arial";' textLength='41.27px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
+<text x='47.21' y='172.58' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Arial";' textLength='38.92px' lengthAdjust='spacingAndGlyphs'>Singapore</text>
+<text x='291.57' y='327.03' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Arial";' textLength='47.47px' lengthAdjust='spacingAndGlyphs'>South Korea</text>
+<text x='267.93' y='297.50' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Arial";' textLength='26.56px' lengthAdjust='spacingAndGlyphs'>Taiwan</text>
+<text x='385.73' y='249.42' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Arial";' textLength='32.75px' lengthAdjust='spacingAndGlyphs'>Thailand</text>
+<text x='527.05' y='204.61' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Arial";' textLength='31.16px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
+<text x='736.84' y='32.44' text-anchor='end' style='font-size: 9.10px; font-style: italic;fill: #666666; font-family: "Arial";' textLength='98.08px' lengthAdjust='spacingAndGlyphs'>Kruskal's Stress = 0.086</text>
+<rect x='24.10' y='22.68' width='722.54' height='391.32' style='stroke-width: 1.07; stroke: #999999;' />
+<text x='385.37' y='426.64' text-anchor='middle' style='font-size: 10.00px; font-family: "Arial";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 1</text>
+<text transform='translate(16.52,218.34) rotate(-90)' text-anchor='middle' style='font-size: 10.00px; font-family: "Arial";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 2</text>
+<rect x='188.87' y='431.58' width='393.01' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='194.35' y='448.92' style='font-size: 9.00px; font-weight: bold; font-family: "Arial";' textLength='31.00px' lengthAdjust='spacingAndGlyphs'>Cluster</text>
+<rect x='230.83' y='437.06' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='231.68' y='437.91' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt; stroke-linejoin: miter;' />
+<circle cx='239.47' cy='445.70' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F;' />
+<rect x='293.35' y='437.06' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='294.20' y='437.91' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='301.99,439.34 307.49,448.88 296.48,448.88 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000;' />
+<rect x='397.70' y='437.06' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='398.55' y='437.91' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='402.25,449.79 410.42,449.79 410.42,441.61 402.25,441.61 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4;' />
+<rect x='475.33' y='437.06' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='476.18' y='437.91' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='479.88,445.70 483.97,441.61 488.05,445.70 483.97,449.79 ' style='stroke-width: 0.71; stroke: none; fill: #42B540;' />
+<text x='253.59' y='448.57' style='font-size: 8.00px; font-family: "Arial";' textLength='34.28px' lengthAdjust='spacingAndGlyphs'>Periphery</text>
+<text x='316.11' y='448.57' style='font-size: 8.00px; font-family: "Arial";' textLength='76.11px' lengthAdjust='spacingAndGlyphs'>Emerging Economies</text>
+<text x='420.46' y='448.57' style='font-size: 8.00px; font-family: "Arial";' textLength='49.39px' lengthAdjust='spacingAndGlyphs'>Finance Hubs</text>
+<text x='498.09' y='448.57' style='font-size: 8.00px; font-family: "Arial";' textLength='78.31px' lengthAdjust='spacingAndGlyphs'>Developmental States</text>
+<rect x='261.26' y='470.78' width='248.23' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='266.74' y='488.12' style='font-size: 9.00px; font-weight: bold; font-family: "Arial";' textLength='62.00px' lengthAdjust='spacingAndGlyphs'>Scaling Factor</text>
+<rect x='334.22' y='476.26' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='335.95' y1='484.90' x2='349.77' y2='484.90' style='stroke-width: 1.37; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='345.77,486.35 349.77,484.90 345.77,483.44 ' style='stroke-width: 1.37; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<rect x='378.04' y='476.26' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='379.76' y1='484.90' x2='393.59' y2='484.90' style='stroke-width: 1.89; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='389.59,486.35 393.59,484.90 389.59,483.44 ' style='stroke-width: 1.89; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<rect x='421.85' y='476.26' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='423.58' y1='484.90' x2='437.40' y2='484.90' style='stroke-width: 2.41; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='433.41,486.35 437.40,484.90 433.41,483.44 ' style='stroke-width: 2.41; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<rect x='465.67' y='476.26' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='467.40' y1='484.90' x2='481.22' y2='484.90' style='stroke-width: 2.94; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='477.23,486.35 481.22,484.90 477.23,483.44 ' style='stroke-width: 2.94; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<text x='356.98' y='487.76' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.06</text>
+<text x='400.79' y='487.76' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.08</text>
+<text x='444.61' y='487.76' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.10</text>
+<text x='488.43' y='487.76' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.12</text>
+<text x='24.10' y='14.43' style='font-size: 13.20px; font-family: "Arial";' textLength='346.59px' lengthAdjust='spacingAndGlyphs'>Multidimensional Scaling Analysis of East Asian Economies</text>
+</g>
+</g>
+</svg>
