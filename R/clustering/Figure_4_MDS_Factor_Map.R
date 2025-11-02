@@ -311,3 +311,8 @@ ggsave(here("output/mds_factor_map.pdf"),
        device = cairo_pdf,
        dpi = 300)
 
+ggsave(here("output/mds_factor_map.svg"),
+       plot = mds_plot_alternative,
+       width = 10.5, height = 7,
+       #device = cairo_pdf,
+       dpi = 300)
