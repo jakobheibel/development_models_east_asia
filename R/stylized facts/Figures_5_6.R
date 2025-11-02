@@ -235,6 +235,11 @@ ggsave(here("output/gdp_plot_tgt.svg"),
 
 # Figure 6: Plot for ECI data --------------------------------------------------
 
+eci_data <- generate_summary_data(ECI#, 
+                                  #missing_iso = c("JPN", "PHL", "VNM", "CHN",
+                                  #                "TWN", "MNG")
+)
+
 eci_mean_plot <- ggplot(eci_data$summary_mean_data, 
                         aes(x = Year, 
                             y = mean, 
