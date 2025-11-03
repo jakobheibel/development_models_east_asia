@@ -26,7 +26,7 @@ To reproduce the datasets, as well as the tables and figures of the study, run t
 source(here("Run_Analysis.R"))
 ```
 
-All figures and other outputs are stored in the folder `../output`. The main dataset `macro_world.RData` is stored in the folder `../data`. The repository does not include the raw data files in `../data/raw` used to create the main dataset.  
+All figures and other outputs are stored in the folder `../output`. The main dataset `macro_world.RData` is stored in the folder `../data`.
 
 ## Authors
 - **Jakob Heibel**
