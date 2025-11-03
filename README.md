@@ -7,7 +7,7 @@ This study employs a data-driven approach based on a multidimensional cluster
 analysis of 15 East Asian economies across 12 macroeconomic dimensions for the period
 2000-2019 to develop a concise typology of development models in East Asia.
 
-The [code](https://github.com/dominyj/EconomicPolarizationEU2025.git) for this project is based on the code from the paper [**"Economic Polarization in the European Union: Development Models in the Race for the Best Location"** (2025) by Jonas Dominy, Claudius Gräbner-Radkowitsch, Philipp Heimberger, and Jakob Kapeller](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp46_dghk2025.pdf).
+The code for this project is based on the [code](https://github.com/dominyj/EconomicPolarizationEU2025.git) from the paper [**"Economic Polarization in the European Union: Development Models in the Race for the Best Location"** (2025) by Jonas Dominy, Claudius Gräbner-Radkowitsch, Philipp Heimberger, and Jakob Kapeller](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp46_dghk2025.pdf).
 
 
 ## Usage
