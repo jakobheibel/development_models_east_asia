@@ -9,30 +9,24 @@ analysis of 15 East Asian economies across 12 macroeconomic dimensions for the p
 
 The [code](https://github.com/dominyj/EconomicPolarizationEU2025.git) for this project is based on the code from the paper [**"Economic Polarization in the European Union: Development Models in the Race for the Best Location"** (2025) by Jonas Dominy, Claudius Gräbner-Radkowitsch, Philipp Heimberger, and Jakob Kapeller](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp46_dghk2025.pdf).
 
-## Installation
-To use this project, first clone the repository and restore the required R packages using `renv`:
-
-```r
-renv::restore()
-```
-
-If `renv` is not installed, you can install it with:
-
-```r
-install.packages("renv")
-```
 
 ## Usage
 
-To reproduce the datasets, as well as the tables and figures of the study, run the following script in the main folder.
+First, clone the repository. The packages required to run the code are listed in the script `../packages.R`.
+
+This project makes use of the [`here`](https://here.r-lib.org/) package. You can install it with:
 
 ```r
-source("Run_Analysis.R")
+install.packages("here")
 ```
 
-All figures are stored in the folder ../output.
-The main dataset macro_world.RData is stored in the folder ../data
-The packages required to run the code are listed in the script ../packages.R
+To reproduce the datasets, as well as the tables and figures of the study, run the script `Run_Analysis.R` in the main directory of the repository, e.g. by typing in the console:
+
+```r
+source(here("Run_Analysis.R"))
+```
+
+All figures and other outputs are stored in the folder `../output`. The main dataset `macro_world.RData` is stored in the folder `../data`. The repository does not include the raw data files in `../data/raw` used to create the main dataset.  
 
 ## Authors
 - **Jakob Heibel**
