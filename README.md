@@ -14,7 +14,7 @@ The code for this project is based on the [code](https://github.com/dominyj/Econ
 
 First, clone the repository. The packages required to run the code are listed in the script `../packages.R`.
 
-This project makes use of the [`here`](https://here.r-lib.org/) package. You can install it with:
+This project makes use of the [`here`](https://here.r-lib.org/) package to easily reference all file locations. You can install it with:
 
 ```r
 install.packages("here")
