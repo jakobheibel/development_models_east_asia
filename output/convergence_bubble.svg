@@ -57,35 +57,35 @@
 <circle cx='446.42' cy='264.50' r='3.20' style='stroke-width: 0.71; stroke: #44AB6B; stroke-opacity: 0.70; fill: #44AB6B; fill-opacity: 0.70;' />
 <circle cx='191.56' cy='162.71' r='5.23' style='stroke-width: 0.71; stroke: #AF547F; stroke-opacity: 0.70; fill: #AF547F; fill-opacity: 0.70;' />
 <line x1='214.71' y1='45.98' x2='187.51' y2='45.98' style='stroke-width: 0.85;' />
-<line x1='491.99' y1='307.25' x2='476.02' y2='290.91' style='stroke-width: 0.85;' />
-<line x1='263.25' y1='230.80' x2='244.56' y2='234.48' style='stroke-width: 0.85;' />
+<line x1='491.99' y1='307.29' x2='476.02' y2='290.91' style='stroke-width: 0.85;' />
+<line x1='263.25' y1='230.75' x2='244.56' y2='234.48' style='stroke-width: 0.85;' />
 <line x1='502.19' y1='375.36' x2='475.54' y2='375.36' style='stroke-width: 0.85;' />
 <line x1='120.48' y1='128.61' x2='102.95' y2='128.61' style='stroke-width: 0.85;' />
-<line x1='438.76' y1='250.37' x2='425.85' y2='257.89' style='stroke-width: 0.85;' />
-<line x1='178.58' y1='174.15' x2='149.07' y2='166.79' style='stroke-width: 0.85;' />
+<line x1='438.76' y1='251.11' x2='425.89' y2='257.92' style='stroke-width: 0.85;' />
+<line x1='178.58' y1='174.09' x2='149.07' y2='166.79' style='stroke-width: 0.85;' />
 <line x1='62.05' y1='64.11' x2='42.59' y2='64.11' style='stroke-width: 0.85;' />
-<line x1='257.37' y1='180.49' x2='237.33' y2='177.83' style='stroke-width: 0.85;' />
-<line x1='399.43' y1='276.14' x2='378.85' y2='273.56' style='stroke-width: 0.85;' />
-<line x1='230.36' y1='251.50' x2='214.08' y2='246.17' style='stroke-width: 0.85;' />
-<line x1='551.90' y1='281.33' x2='544.29' y2='275.78' style='stroke-width: 0.85;' />
+<line x1='257.37' y1='180.61' x2='237.33' y2='177.84' style='stroke-width: 0.85;' />
+<line x1='399.43' y1='276.16' x2='378.85' y2='273.56' style='stroke-width: 0.85;' />
+<line x1='230.36' y1='251.46' x2='214.08' y2='246.17' style='stroke-width: 0.85;' />
+<line x1='551.94' y1='281.36' x2='544.29' y2='275.78' style='stroke-width: 0.85;' />
 <line x1='343.91' y1='259.35' x2='322.79' y2='259.35' style='stroke-width: 0.85;' />
-<line x1='472.55' y1='270.31' x2='447.76' y2='264.80' style='stroke-width: 0.85;' />
-<line x1='215.01' y1='159.12' x2='192.93' y2='162.50' style='stroke-width: 0.85;' />
+<line x1='472.55' y1='271.02' x2='447.74' y2='264.83' style='stroke-width: 0.85;' />
+<line x1='215.01' y1='159.24' x2='192.94' y2='162.50' style='stroke-width: 0.85;' />
 <text x='229.51' y='49.55' text-anchor='middle' style='font-size: 9.96px;fill: #925E9F; font-family: "Arial";' textLength='26.00px' lengthAdjust='spacingAndGlyphs'>China</text>
-<text x='518.68' y='311.92' text-anchor='middle' style='font-size: 9.96px;fill: #E62914; font-family: "Arial";' textLength='49.78px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
-<text x='286.62' y='234.17' text-anchor='middle' style='font-size: 9.96px;fill: #4395AA; font-family: "Arial";' textLength='43.16px' lengthAdjust='spacingAndGlyphs'>Indonesia</text>
+<text x='518.68' y='311.96' text-anchor='middle' style='font-size: 9.96px;fill: #E62914; font-family: "Arial";' textLength='49.78px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
+<text x='286.62' y='234.12' text-anchor='middle' style='font-size: 9.96px;fill: #4395AA; font-family: "Arial";' textLength='43.16px' lengthAdjust='spacingAndGlyphs'>Indonesia</text>
 <text x='517.55' y='378.93' text-anchor='middle' style='font-size: 9.96px;fill: #42B540; font-family: "Arial";' textLength='27.11px' lengthAdjust='spacingAndGlyphs'>Japan</text>
 <text x='144.96' y='132.18' text-anchor='middle' style='font-size: 9.96px;fill: #B0537D; font-family: "Arial";' textLength='45.36px' lengthAdjust='spacingAndGlyphs'>Cambodia</text>
-<text x='468.21' y='252.65' text-anchor='middle' style='font-size: 9.96px;fill: #45AF5D; font-family: "Arial";' textLength='55.31px' lengthAdjust='spacingAndGlyphs'>South Korea</text>
-<text x='191.16' y='178.05' text-anchor='middle' style='font-size: 9.96px;fill: #9E5A93; font-family: "Arial";' textLength='21.58px' lengthAdjust='spacingAndGlyphs'>Laos</text>
+<text x='468.21' y='253.45' text-anchor='middle' style='font-size: 9.96px;fill: #45AF5D; font-family: "Arial";' textLength='55.31px' lengthAdjust='spacingAndGlyphs'>South Korea</text>
+<text x='191.16' y='177.99' text-anchor='middle' style='font-size: 9.96px;fill: #9E5A93; font-family: "Arial";' textLength='21.58px' lengthAdjust='spacingAndGlyphs'>Laos</text>
 <text x='84.60' y='67.67' text-anchor='middle' style='font-size: 9.96px;fill: #A95687; font-family: "Arial";' textLength='41.48px' lengthAdjust='spacingAndGlyphs'>Myanmar</text>
-<text x='279.36' y='184.12' text-anchor='middle' style='font-size: 9.96px;fill: #1F9BAA; font-family: "Arial";' textLength='40.39px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
-<text x='420.88' y='279.75' text-anchor='middle' style='font-size: 9.96px;fill: #D7373F; font-family: "Arial";' textLength='39.30px' lengthAdjust='spacingAndGlyphs'>Malaysia</text>
-<text x='256.23' y='255.72' text-anchor='middle' style='font-size: 9.96px;fill: #C5614B; font-family: "Arial";' textLength='48.16px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
-<text x='562.34' y='290.26' text-anchor='middle' style='font-size: 9.96px;fill: #E43019; font-family: "Arial";' textLength='45.36px' lengthAdjust='spacingAndGlyphs'>Singapore</text>
+<text x='279.36' y='184.25' text-anchor='middle' style='font-size: 9.96px;fill: #1F9BAA; font-family: "Arial";' textLength='40.39px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
+<text x='420.88' y='279.78' text-anchor='middle' style='font-size: 9.96px;fill: #D7373F; font-family: "Arial";' textLength='39.30px' lengthAdjust='spacingAndGlyphs'>Malaysia</text>
+<text x='256.23' y='255.68' text-anchor='middle' style='font-size: 9.96px;fill: #C5614B; font-family: "Arial";' textLength='48.16px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
+<text x='562.34' y='290.29' text-anchor='middle' style='font-size: 9.96px;fill: #E43019; font-family: "Arial";' textLength='45.36px' lengthAdjust='spacingAndGlyphs'>Singapore</text>
 <text x='364.80' y='262.91' text-anchor='middle' style='font-size: 9.96px;fill: #EA120F; font-family: "Arial";' textLength='38.17px' lengthAdjust='spacingAndGlyphs'>Thailand</text>
-<text x='489.84' y='274.18' text-anchor='middle' style='font-size: 9.96px;fill: #44AB6B; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>Taiwan</text>
-<text x='234.97' y='162.58' text-anchor='middle' style='font-size: 9.96px;fill: #AF547F; font-family: "Arial";' textLength='36.33px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
+<text x='489.84' y='274.96' text-anchor='middle' style='font-size: 9.96px;fill: #44AB6B; font-family: "Arial";' textLength='30.97px' lengthAdjust='spacingAndGlyphs'>Taiwan</text>
+<text x='234.97' y='162.71' text-anchor='middle' style='font-size: 9.96px;fill: #AF547F; font-family: "Arial";' textLength='36.33px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
 </g>
 <g clip-path='url(#cpMC4wMHw3OTIuMDB8MC4wMHw0MzIuMDA=)'>
 <polyline points='35.72,391.83 35.72,29.51 ' style='stroke-width: 1.07; stroke-linecap: butt;' />

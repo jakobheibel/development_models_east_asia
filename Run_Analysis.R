@@ -33,6 +33,7 @@ source(here("R/data-prep/Tables_1-2_Tables_A1_A3.R"))
 
 # Stylized facts
 
+source(here("R/stylized facts/Figure_1_convergence_bubble.R"))
 source(here("R/stylized facts/Figure_2_correlation_matrix.R"))
 source(here("R/stylized facts/Figure_7_boxplot.R"))
 source(here("R/stylized facts/Figures_5_6.R"))
