@@ -126,7 +126,7 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
   #scale_color_viridis_c(option = "cividis") +
   scale_x_log10(labels = scales::comma,
                 expand = expansion(mult = c(0.01, 0.01))) +
-  scale_y_continuous(expand = expansion(mult = c(0.05, 0.05))) +
+  scale_y_continuous(expand = expansion(mult = c(0.05, 0.07))) +
   labs(
     title = "Country sample",
     #x = "GDP p.c. at PPP, in 2017 intl. $ (log scale, 2019)",
