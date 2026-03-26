@@ -6,7 +6,7 @@ load(here("data/macro_world.RData"))
 
 ISO_list_EA3 <- c("TWN", "CHN", "HKG", "IDN", "JPN", "KOR", "MYS", "PHL", "SGP",
                   "THA", "VNM", "MNG", "MMR", "KHM", "LAO",
-                  "FRA", "USA", "IRL", "POL") # comparison group
+                  "DEU", "IRL", "POL", "ITA") # comparison group
 
 # Figure 1 ---------------------------------------------------------------------
 # Population - Penn Penn World Table 10.0
