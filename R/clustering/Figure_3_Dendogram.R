@@ -41,32 +41,39 @@ cluster_colors <- c( # to ensure that that the colors of the dendogram match
 #------------------------------------------------------------------------------#
 
 dend <- fviz_dend(results$agnes_results,
-                  k = 4,
-                  cex = 0.7,
-                  main = "Agglomerative Hierarchical Clustering of FE estimates (2000-2019)",
-                  ylab = "Height",
-                  rect = FALSE,
-                  color_labels_by_k = TRUE,
-                  horiz = TRUE,
-                  palette = cluster_colors,
-                  ggtheme = theme_minimal() +
-                    theme(
-                      panel.grid = element_blank(),
-                      panel.background = element_blank(),
-                      plot.background = element_blank()
-                    )
+  k = 4,
+  cex = 0.7,
+  main = "Agglomerative Hierarchical Clustering of FE estimates (2000-2019)",
+  ylab = "Height",
+  rect = FALSE,
+  color_labels_by_k = TRUE,
+  horiz = TRUE,
+  palette = cluster_colors,
+  ggtheme = theme_minimal() +
+    theme(
+      panel.grid = element_blank(),
+      panel.background = element_blank(),
+      plot.background = element_blank()
+    )
 ) +
   custom_rect_dendrogram(stats::as.dendrogram(results$agnes_results),
-                         k = 4,
-                         k_colors = cluster_colors,
-                         rect_fill = TRUE,
-                         rect_lty = 2,
-                         rect_width_offset = 0.8) +
+    k = 4,
+    k_colors = cluster_colors,
+    rect_fill = TRUE,
+    rect_lty = 2,
+    rect_width_offset = 0.8
+  ) +
   scale_y_continuous(breaks = seq(0, 15, by = 5), trans = "reverse") +
-  coord_flip()+
+  coord_flip() +
   theme(
-    plot.margin = margin(0, 0, 0, 0, "cm"),  # Alle Ränder auf 0
-    panel.spacing = unit(0, "lines"))
+    plot.margin = margin(0, 0, 0, 0, "cm"), # Alle Ränder auf 0
+    panel.spacing = unit(0, "lines")
+  )
+
+# fix linewidth being mapped as aesthetic in newer factoextra versions
+dend$layers[[1]]$mapping$linewidth <- NULL
+dend$layers[[1]]$aes_params$linewidth <- 0.7
+dend <- dend + guides(linewidth = "none")
 
 # Save
 ggsave(file = here("output/FE_Clust_Dendo.pdf"),

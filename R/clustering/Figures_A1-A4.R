@@ -367,24 +367,41 @@ ggsave(here("output/gap_stat_plot.svg"),
 # elbow (minimizing within-cluster variance while also keeping the number of
 # clusters small so as to avoid overfitting)
 
-elbow_plot <- fviz_nbclust(
-  as.matrix(weighted_distances), hcut, method = "wss",
-  linecolor = pal_lancet("lanonc")(9)[4]) +
+# fviz_nbclust passes k = 1 in newer versions of factoextra to compute a
+# baseline WSS, which hcut rejects. The following guard re-routes k = 1 to use the
+# manual extraction approach below instead.
+hcut_diss <- function(x, k, ...) {
+  if (k < 2) k <- 2
+  hcut(as.dist(x), k, ...)
+}
+
+# extract the underlying data from fviz_nbclust
+nbclust_data <- fviz_nbclust(
+  as.matrix(weighted_distances), hcut_diss, method = "wss")$data
+
+# plot manually, filtering out k = 1
+elbow_plot <- nbclust_data %>%
+  filter(clusters != 1) %>%
+  mutate(clusters = as.integer(clusters)) %>%
+  ggplot(aes(x = clusters, y = y)) +
+  geom_line(color = pal_lancet("lanonc")(9)[4]) +
+  geom_point(color = pal_lancet("lanonc")(9)[4]) +
+  scale_x_continuous(breaks = 2:10) +
   labs(
     title = "Elbow Method for Estimating Optimal Number of Clusters",
     subtitle = "Clustering of FE Estimates (2000-2019)",
     x = "Number of Clusters",
+    y = "Total Within Sum of Square"
   ) +
   theme_minimal() +
   theme(
-    #panel.border = element_rect(color = "black", fill = NA, linewidth = 1),
-    axis.line = element_blank(),  # turn off default lines
+    axis.line = element_blank(),
     axis.line.x.bottom = element_line(color = "black", linewidth = 0.5),
     axis.line.y.left = element_line(color = "black", linewidth = 0.5),
-    axis.ticks = element_line(color = "black", linewidth = 0.5),  # add ticks
-    axis.ticks.length = unit(0.1, "cm"),  # size of ticks
+    axis.ticks = element_line(color = "black", linewidth = 0.5),
+    axis.ticks.length = unit(0.1, "cm"),
     axis.text = element_text(color = "black", size = 12),
-    panel.border = element_blank(),  # remove full border
+    panel.border = element_blank(),
     panel.grid.minor = element_blank()
   )
 
