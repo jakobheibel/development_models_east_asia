@@ -146,7 +146,13 @@ variable_labels <- c(
   "MiningShareVA_est" = "Mining",
   "GiniMkt_est" = "Inequality (Gini)",
   "FDInetinflow_est" = "FDI Inflows",
-  "ECI_est" = "ECI"
+  "ECI_est" = "ECI"#,
+  #"cc_est" = "Control of Corruption",
+  #"ge_est" = "Government Effectiveness",
+  #"pv_est" = "Political Stability",
+  #"rq_est" = "Regulatory Quality",
+  #"rl_est" = "Rule of Law",
+  #"va_est" = "Voice and Accountability"
 )
 
 loadings_data <- data.frame(
