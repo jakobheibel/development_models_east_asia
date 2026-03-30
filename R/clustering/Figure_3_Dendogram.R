@@ -70,10 +70,12 @@ dend <- fviz_dend(results$agnes_results,
     panel.spacing = unit(0, "lines")
   )
 
-# fix linewidth being mapped as aesthetic in newer factoextra versions
+# Keep branch width fixed and suppress lwd/linewidth legends across ggplot2 versions
 dend$layers[[1]]$mapping$linewidth <- NULL
-dend$layers[[1]]$aes_params$linewidth <- 0.7
-dend <- dend + guides(linewidth = "none")
+dend$layers[[1]]$mapping$lwd <- NULL
+dend$layers[[1]]$aes_params$linewidth <- 0.5
+dend$layers[[1]]$aes_params$lwd <- 0.5
+dend <- dend + guides(linewidth = "none", lwd = "none")
 
 # Save
 ggsave(file = here("output/FE_Clust_Dendo.pdf"),

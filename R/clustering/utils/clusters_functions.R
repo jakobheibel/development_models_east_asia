@@ -239,6 +239,13 @@ period_cluster <- function(macro_EA, var_names,
                      rect = TRUE, # Add rectangle around groups
                      rect_fill = TRUE,
                      horiz = TRUE)
+
+  # Keep branch width fixed to avoid a linewidth/lwd legend in newer ggplot2/factoextra versions
+  dendo$layers[[1]]$mapping$linewidth <- NULL
+  dendo$layers[[1]]$mapping$lwd <- NULL
+  dendo$layers[[1]]$aes_params$linewidth <- 0.5
+  dendo$layers[[1]]$aes_params$lwd <- 0.5
+  dendo <- dendo + guides(linewidth = "none", lwd = "none")
   
   dendo_standard <- fviz_dend(as.hclust(agnes_results_standard),
                               main = paste0("Agglomerative Hierarchical Clustering of FE estimates (",
@@ -250,6 +257,12 @@ period_cluster <- function(macro_EA, var_names,
                               rect = TRUE, # Add rectangle around groups
                               rect_fill = TRUE,
                               horiz = TRUE)
+
+  dendo_standard$layers[[1]]$mapping$linewidth <- NULL
+  dendo_standard$layers[[1]]$mapping$lwd <- NULL
+  dendo_standard$layers[[1]]$aes_params$linewidth <- 0.5
+  dendo_standard$layers[[1]]$aes_params$lwd <- 0.5
+  dendo_standard <- dendo_standard + guides(linewidth = "none", lwd = "none")
   
   # Return the results directly: 
   # Weighted distances, Variable Weights, Country groupings, 
@@ -424,6 +437,12 @@ variable_cluster <- function(macro_EA, var_names, var_set,
                      rect = TRUE, # Add rectangle around groups
                      rect_fill = TRUE,
                      horiz = TRUE)
+
+  dendo$layers[[1]]$mapping$linewidth <- NULL
+  dendo$layers[[1]]$mapping$lwd <- NULL
+  dendo$layers[[1]]$aes_params$linewidth <- 0.5
+  dendo$layers[[1]]$aes_params$lwd <- 0.5
+  dendo <- dendo + guides(linewidth = "none", lwd = "none")
   
   # Return the results directly: 
   # Weighted distances, Variable Weights, Country groupings, 
