@@ -140,7 +140,7 @@ for (i in seq_along(variable_list)) {
   
   assign(paste0("dendo_selection_", var_set_name), dendo)
   
-  ggsave(here(paste0("output/dendograms/FE_Clust_EA_selection_", 
+  ggsave(here(paste0("output/dendrograms/FE_Clust_EA_selection_", 
                      var_set_name, ".png")), 
          dendo, 
          width = 8, height = 6, dpi = 300)

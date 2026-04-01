@@ -147,7 +147,7 @@ for (i in seq(1, length(time_periods), by = 2)) {
   
   assign(paste0("dendo_", start_year, "_", end_year), dendo)
   
-  ggsave(here(paste0("output/dendograms/FE_Clust_EA_", 
+  ggsave(here(paste0("output/dendrograms/FE_Clust_EA_", 
                      start_year, "_", 
                      end_year, ".png")), 
          dendo, 
@@ -179,13 +179,13 @@ create_sankey(country_groupings, time_periods, cluster_colors)
 
 # Sankey diagram 
 
-ggsave(here(paste0("output/FE_Sankey_EA_", 
+ggsave(here(paste0("output/sankeys/FE_Sankey_EA_", 
                    time_periods[1], "_", 
                    time_periods[length(time_periods)], ".pdf")), 
        create_sankey(country_groupings, time_periods, cluster_colors), 
        width = 11, height = 6, dpi = 300, bg = "white")
 
-ggsave(here(paste0("output/FE_Sankey_EA_", 
+ggsave(here(paste0("output/sankeys/FE_Sankey_EA_", 
                    time_periods[1], "_", 
                    time_periods[length(time_periods)], ".svg")), 
        create_sankey(country_groupings, time_periods, cluster_colors), 
@@ -303,11 +303,11 @@ step_plot <- ggplot(df_ordered, aes(x = Number_of_clusters, y = Height)) +
 
 step_plot
 
-ggsave(here("output/step_plot.pdf"), 
+ggsave(here("output/cluster_numbers/step_plot.pdf"), 
        step_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
-ggsave(here("output/step_plot.svg"), 
+ggsave(here("output/cluster_numbers/step_plot.svg"), 
        step_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
        #width = 8, height = 8, dpi = 300, bg = "white")
@@ -354,11 +354,11 @@ gap_stat_plot <- fviz_gap_stat(gap_stat,
 
 gap_stat_plot
 
-ggsave(here("output/gap_stat_plot.pdf"),
+ggsave(here("output/cluster_numbers/gap_stat_plot.pdf"),
        gap_stat_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
-ggsave(here("output/gap_stat_plot.svg"),
+ggsave(here("output/cluster_numbers/gap_stat_plot.svg"),
        gap_stat_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
@@ -407,11 +407,11 @@ elbow_plot <- nbclust_data %>%
 
 elbow_plot
 
-ggsave(here("output/elbow_plot.pdf"),
+ggsave(here("output/cluster_numbers/elbow_plot.pdf"),
        elbow_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
-ggsave(here("output/elbow_plot.svg"),
+ggsave(here("output/cluster_numbers/elbow_plot.svg"),
        elbow_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
