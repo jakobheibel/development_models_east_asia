@@ -16,7 +16,8 @@ library(here)
 
 #source(here("R/data-prep/a_value_added_data.R"))
 #source(here("R/data-prep/b_data_prep.R"))
-## dataset macro_world.RData already created and saved in data
+#source(here("R/data-prep/c_institutional_vars.R"))
+## datasets macro_world, macro_inst_world already created & saved in data
 
 # Clustering
 
@@ -26,6 +27,15 @@ source(here("R/clustering/Figure_8.R"))
 ## script also creates cluster objects used later
 source(here("R/clustering/Figure_3_Dendogram.R"))
 source(here("R/clustering/Figure_4_MDS_Factor_Map.R"))
+
+# Clustering including institutional variables
+
+source(here("R/clustering/clustering_inst/Figures_A1-A4_inst.R")) 
+## script also creates cluster objects used later
+source(here("R/clustering/clustering_inst/Figure_8_inst.R")) 
+## script also creates cluster objects used later
+source(here("R/clustering/clustering_inst/Figure_3_Dendogram_inst.R"))
+source(here("R/clustering/clustering_inst/Figure_4_MDS_Factor_Map_inst.R"))
 
 # Tables with data sources and scaling factors
 
