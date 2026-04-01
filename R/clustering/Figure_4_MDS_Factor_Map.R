@@ -16,7 +16,7 @@ library(patchwork)
 # DATA LOADING
 # =============================================================================
 
-load(here("output/cluster_results/FE_Clust_EA_2000_2019.Rdata"))
+load(here("output/cluster_results/FE_Clust_EA_2000_2019.RData"))
 cluster_obj <- results$agnes_results
 dist_matrix <- results$weighted_distances
 panel_estimates <- results$panel_estimates

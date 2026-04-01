@@ -19,7 +19,7 @@ library(ggplot2)
 source(here("R/clustering/utils/helper_functions.R"))
 
 # Load results
-load(here("output/cluster_results/FE_Clust_EA_2000_2019.Rdata"))
+load(here("output/cluster_results/FE_Clust_EA_2000_2019.RData"))
 
 #------------------------------------------------------------------------------#
 # Prepare visualization ----------------------------------------------------
