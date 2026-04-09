@@ -5,16 +5,20 @@ source(here("packages.R"))
 load(here("data/macro_world.RData"))
 
 ISO_list_EA3 <- c("TWN", "CHN", "HKG", "IDN", "JPN", "KOR", "MYS", "PHL", "SGP",
-                  "THA", "VNM", "MNG", "MMR", "KHM", "LAO",
-                  "DEU", "IRL", "POL", "ITA") # comparison group
+                  "THA", "VNM", "MNG", "MMR", "KHM", "LAO", "USA")
+                  #"DEU", "IRL", "POL", "ITA") # European comparison group
+                  
+ISO_list_EU <- c( # EU27 as comparison group 
+  "AUT", "BEL", "BGR", "HRV", "CYP", "CZE", "DNK", "EST", "SWE", "FIN", "FRA",
+  "DEU", "GRC", "HUN", "IRL", "ITA", "LVA", "LTU", "LUX", "MLT", "NLD", "POL", 
+  "PRT", "ROU", "SVK", "SVN", "ESP") 
 
 # Figure 1 ---------------------------------------------------------------------
 # Population - Penn Penn World Table 10.0
 # GDP p.c. PPP - IMF
 # average GDP growth rate over the period 2000-2019 - IMF
 
-pennRaw <- read_excel(here("data/raw/pwt1001.xlsx"),
-                      sheet = "Data")
+pennRaw <- read_excel(here("data/raw/pwt1001.xlsx"), sheet = "Data")
 
 penn_pop <- pennRaw %>% 
   rename(`Population, in millions (2019)` = pop,
@@ -23,13 +27,25 @@ penn_pop <- pennRaw %>%
          ISO = countrycode) %>% 
   select(Country, ISO, Year, `Population, in millions (2019)`) %>% 
   filter(Year == 2019,
-         ISO %in% ISO_list_EA3) %>% 
+         ISO %in% c(ISO_list_EA3, ISO_list_EU)) %>% 
   mutate(Country = recode(Country,
                           "China, Hong Kong SAR" = "Hong Kong",
                           "Republic of Korea" = "South Korea",
                           "Lao People's DR" = "Laos",
-                          "Viet Nam" = "Vietnam")) %>% 
+                          "Viet Nam" = "Vietnam"),
+         EU27 = ifelse(ISO %in% ISO_list_EU, 1, 0)) %>%
   select(-c(ISO, Year))
+
+penn_pop_eu <- penn_pop %>%
+  filter(EU27 == 1) %>%
+  summarise(
+    Country = "EU",
+    `Population, in millions (2019)` = sum(`Population, in millions (2019)`))
+
+penn_pop <- penn_pop %>% 
+  filter(EU27 == 0) %>%
+  bind_rows(penn_pop_eu) %>%
+  select(-EU27)
 
 load(here("data/raw/WEOvars.RData"))
 
@@ -39,9 +55,7 @@ WEO_GDPpc2019 <- WEOvars %>%
          #Year == 2000) %>% 
          Year == 2019) %>%
   rename(`GDP p.c. at PPP, in 2017 intl. $ (2019)` = GDPpcPPPimf) %>% 
-  #rename(`GDP p.c. at PPP, in 2017 intl. $ (2000)` = GDPpcPPPimf) %>% 
-  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2019)`) %>% 
-  #select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`) %>% 
+  select(Country, ISO, `GDP p.c. at PPP, in 2017 intl. $ (2019)`) %>% 
   mutate(Country = recode(Country,
                           "Hong Kong SAR" = "Hong Kong",
                           "Korea" = "South Korea",
@@ -53,7 +67,7 @@ WEO_GDPpc2000 <- WEOvars %>%
   filter(ISO %in% ISO_list_EA3,
          Year == 2000) %>% 
   rename(`GDP p.c. at PPP, in 2017 intl. $ (2000)` = GDPpcPPPimf) %>% 
-  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`) %>% 
+  select(Country, ISO, `GDP p.c. at PPP, in 2017 intl. $ (2000)`) %>% 
   mutate(Country = recode(Country,
                           "Hong Kong SAR" = "Hong Kong",
                           "Korea" = "South Korea",
@@ -65,7 +79,25 @@ growth_rate_data <- WEO_GDPpc2000 %>%
   mutate(`Average annual log GDP p.c. growth (2000–2019, in %)` = 100*
            (log(`GDP p.c. at PPP, in 2017 intl. $ (2019)`) 
             - log(`GDP p.c. at PPP, in 2017 intl. $ (2000)`)) 
-         / (2019 - 2000))
+         / (2019 - 2000)) %>% 
+  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`, 
+         `Average annual log GDP p.c. growth (2000–2019, in %)`)
+
+growth_rate_data_EU <- fread(here("data/raw/NGDPRPPPPC_EU_WEO.tsv"))
+
+growth_rate_data_EU <- growth_rate_data_EU %>% 
+  mutate(across(`2000`:`2019`, ~ parse_number(.))) %>% 
+  mutate(`GDP p.c. at PPP, in 2017 intl. $ (2000)` = `2000`,
+         `GDP p.c. at PPP, in 2017 intl. $ (2019)` = `2019`,
+         `Average annual log GDP p.c. growth (2000–2019, in %)` = 100*
+           (log(`GDP p.c. at PPP, in 2017 intl. $ (2019)`) 
+            - log(`GDP p.c. at PPP, in 2017 intl. $ (2000)`)) 
+         / (2019 - 2000),
+         Country = "EU") %>%
+  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`,
+         `Average annual log GDP p.c. growth (2000–2019, in %)`)
+
+growth_rate_data <- bind_rows(growth_rate_data, growth_rate_data_EU)
           
 vdem_raw <- vdem
 
@@ -74,7 +106,6 @@ libdem_avg <- vdem_raw %>%
   rename(ISO = country_text_id,
          Year = year,
          LibDem = v2x_libdem) %>% 
-  filter(ISO %in% ISO_list_EA3) %>% 
   filter(ISO %in% ISO_list_EA3,
          Year >= 2000 & Year <= 2019) %>% 
   group_by(ISO) %>% 
@@ -86,15 +117,30 @@ libdem_avg <- vdem_raw %>%
                                destination = "country.name")) %>% 
   mutate(Country = recode(Country,
                           "Hong Kong SAR China" = "Hong Kong",
-                          "Myanmar (Burma)" = "Myanmar")) %>%
+                          "Myanmar (Burma)" = "Myanmar")) %>% 
   select(Country, `Average Liberal Democracy Index (2000-2019)`) %>% 
   arrange(Country)
+
+libdem_avg_EU <- vdem_raw %>% 
+  select(country_text_id, year, v2x_libdem) %>% 
+  rename(ISO = country_text_id,
+         Year = year,
+         LibDem = v2x_libdem) %>% 
+  filter(ISO %in% ISO_list_EU,
+         Year >= 2000 & Year <= 2019) %>% 
+  summarise(`Average Liberal Democracy Index (2000-2019)` =
+              mean(LibDem, na.rm = TRUE)) %>%
+  mutate(Country = "EU")
+
+libdem_avg <- bind_rows(libdem_avg, libdem_avg_EU)
 
 rm(vdem_raw)
 
 convergence_bubble_data <- penn_pop %>% 
   left_join(growth_rate_data) %>%
-  left_join(libdem_avg)
+  left_join(libdem_avg) %>%
+  mutate(ReferencePoint = ifelse(Country %in% c("EU", "United States", "USA"),
+                                 "Reference point", NA_character_))
 
 # Convergence bubble plot
 
@@ -102,10 +148,20 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
   #x = `GDP p.c. at PPP, in 2017 intl. $ (2019)`,
   x = `GDP p.c. at PPP, in 2017 intl. $ (2000)`,
   y = `Average annual log GDP p.c. growth (2000–2019, in %)`,
-  size = `Population, in millions (2019)`,
-  color = `Average Liberal Democracy Index (2000-2019)`
+  size = `Population, in millions (2019)`
 )) +
-  geom_point(alpha = 0.7) +
+  geom_point(
+    data = convergence_bubble_data %>% filter(is.na(ReferencePoint)),
+    aes(color = `Average Liberal Democracy Index (2000-2019)`),
+    alpha = 0.7
+  ) +
+  geom_point(
+    data = convergence_bubble_data %>% filter(!is.na(ReferencePoint)),
+    aes(shape = ReferencePoint),
+    color = "grey50",
+    alpha = 0.9,
+    show.legend = FALSE
+  ) +
   geom_text_repel(
     aes(label = Country),
     size = 3.5,
@@ -123,6 +179,7 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
     #labels = c("10m", "50m", "100m", "500m", "1b"),
     guide = "legend"
   ) +
+  scale_shape_manual(values = c("Reference point" = 16), guide = "none") +
   scale_color_gradientn(colors = c("#925E9F", "#ED0000", "#0099B4", "#42B540"))+
   #scale_color_viridis_c(option = "cividis") +
   scale_x_log10(labels = scales::comma,
@@ -135,6 +192,10 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
     y = "Average annual log GDP p.c. growth (2000–2019, in %)",
     size = "Population (millions, 2019)",
     color = "Liberal Democracy Index\n(2000–2019 avg.)"
+  ) +
+  guides(
+    color = guide_colorbar(order = 1),
+    size = guide_legend(order = 2)
   ) +
   theme_minimal(base_size = 14) +
   theme(
