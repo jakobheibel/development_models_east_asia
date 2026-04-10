@@ -81,25 +81,14 @@ growth_rate_data <- WEO_GDPpc2000 %>%
   mutate(`Average annual log GDP p.c. growth (2000–2019, in %)` = 100*
            (log(`GDP p.c. at PPP, in 2017 intl. $ (2019)`) 
             - log(`GDP p.c. at PPP, in 2017 intl. $ (2000)`)) 
-         / (2019 - 2000)) %>% 
-  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`, 
-         `Average annual log GDP p.c. growth (2000–2019, in %)`)
+         / (2019 - 2000))
 
-growth_rate_data_EU <- fread(here("data/raw/NGDPRPPPPC_EU_WEO.tsv"))
+growth_rate_data_EU <- read_xls(here("data/raw/NGDPRPPPPC_EU_WEO.xls"))
 
-growth_rate_data_EU <- growth_rate_data_EU %>% 
-  mutate(across(`2000`:`2019`, ~ parse_number(.))) %>% 
-  mutate(`GDP p.c. at PPP, in 2017 intl. $ (2000)` = `2000`,
-         `GDP p.c. at PPP, in 2017 intl. $ (2019)` = `2019`,
-         `Average annual log GDP p.c. growth (2000–2019, in %)` = 100*
-           (log(`GDP p.c. at PPP, in 2017 intl. $ (2019)`) 
-            - log(`GDP p.c. at PPP, in 2017 intl. $ (2000)`)) 
-         / (2019 - 2000),
-         Country = "EU") %>%
-  select(Country, `GDP p.c. at PPP, in 2017 intl. $ (2000)`,
-         `Average annual log GDP p.c. growth (2000–2019, in %)`)
-
-growth_rate_data <- bind_rows(growth_rate_data, growth_rate_data_EU)
+growth_rate_data <- growth_rate_data %>% 
+  filter(EU27 == 0) %>% 
+  bind_rows(growth_rate_data_EU) %>%
+  select(-c(EU27, ISO))
           
 vdem_raw <- vdem
 
