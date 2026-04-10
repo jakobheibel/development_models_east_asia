@@ -51,7 +51,7 @@ load(here("data/raw/WEOvars.RData"))
 
 WEO_GDPpc2019 <- WEOvars %>%
   select(ISO, Country, Year, GDPpcPPPimf) %>%
-  filter(ISO %in% c(ISO_list_EA3, ISO_list_EU),
+  filter(ISO %in% ISO_list_EA3,
          #Year == 2000) %>% 
          Year == 2019) %>%
   rename(`GDP p.c. at PPP, in 2017 intl. $ (2019)` = GDPpcPPPimf) %>% 
@@ -60,12 +60,11 @@ WEO_GDPpc2019 <- WEOvars %>%
                           "Hong Kong SAR" = "Hong Kong",
                           "Korea" = "South Korea",
                           "Lao P.D.R." = "Laos",
-                          "Taiwan Province of China" = "Taiwan"),
-         EU27 = ifelse(ISO %in% ISO_list_EU, 1, 0))
+                          "Taiwan Province of China" = "Taiwan"))
 
 WEO_GDPpc2000 <- WEOvars %>%
   select(ISO, Country, Year, GDPpcPPPimf) %>%
-  filter(ISO %in% c(ISO_list_EA3, ISO_list_EU),
+  filter(ISO %in% ISO_list_EA3,
          Year == 2000) %>% 
   rename(`GDP p.c. at PPP, in 2017 intl. $ (2000)` = GDPpcPPPimf) %>% 
   select(Country, ISO, `GDP p.c. at PPP, in 2017 intl. $ (2000)`) %>% 
@@ -73,8 +72,7 @@ WEO_GDPpc2000 <- WEOvars %>%
                           "Hong Kong SAR" = "Hong Kong",
                           "Korea" = "South Korea",
                           "Lao P.D.R." = "Laos",
-                          "Taiwan Province of China" = "Taiwan"),
-         EU27 = ifelse(ISO %in% ISO_list_EU, 1, 0))
+                          "Taiwan Province of China" = "Taiwan"))
 
 growth_rate_data <- WEO_GDPpc2000 %>% 
   left_join(WEO_GDPpc2019) %>% 
