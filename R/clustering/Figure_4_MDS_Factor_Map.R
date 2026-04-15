@@ -38,6 +38,7 @@ cluster_vars_clean <- gsub("_est$", "", cluster_vars)
 n_dims <- 2
 mds_coords_full <- cmdscale(dist_matrix, k = n_dims, eig = TRUE)
 mds_coords <- mds_coords_full$points
+mds_coords[, 1] <- -mds_coords[, 1] 
 colnames(mds_coords) <- paste0("MDS_", 1:n_dims)
 
 # =============================================================================
