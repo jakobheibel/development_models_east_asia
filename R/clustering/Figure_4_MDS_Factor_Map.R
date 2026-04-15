@@ -238,9 +238,9 @@ mds_plot_alternative <- ggplot() +
                   segment.size = 0.3) +
   # Stress annotation
   annotate("text", 
-           x = Inf, y = Inf, 
+           x = -Inf, y = Inf, 
            label = if(!is.na(stress)) paste0("Kruskal's Stress = ", round(stress, 3)) else "Stress = N/A",
-           hjust = 1.1, vjust = 1.5,
+           hjust = -0.1, vjust = 1.5,
            size = 3.2,
            color = "grey40",
            fontface = "italic") +
