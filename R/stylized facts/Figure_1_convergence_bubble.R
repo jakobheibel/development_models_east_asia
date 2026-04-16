@@ -158,7 +158,7 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
   geom_point(
     data = convergence_bubble_data %>% filter(!is.na(ReferencePoint)),
     aes(shape = ReferencePoint),
-    color = "grey50",
+    color = "grey30",
     alpha = 0.9,
     show.legend = FALSE
   ) +
@@ -180,8 +180,8 @@ convergence_bubble <- ggplot(convergence_bubble_data, aes(
     guide = "legend"
   ) +
   scale_shape_manual(values = c("Reference point" = 16), guide = "none") +
-  scale_color_gradientn(colors = c("#925E9F", "#ED0000", "#0099B4", "#42B540"))+
-  #scale_color_viridis_c(option = "cividis") +
+  #scale_color_gradientn(colors = c("#925E9F", "#ED0000", "#0099B4", "#42B540"))+
+  scale_color_viridis_c(option = "plasma", direction = -1) +
   scale_x_log10(labels = scales::comma,
                 expand = expansion(mult = c(0.01, 0.01))) +
   scale_y_continuous(expand = expansion(mult = c(0.05, 0.07))) +
