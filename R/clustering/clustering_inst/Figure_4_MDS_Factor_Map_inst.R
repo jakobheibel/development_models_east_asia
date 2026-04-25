@@ -85,7 +85,7 @@ numeric_cols <- correlation_data %>%
   dplyr::select_if(is.numeric)
 
 cor_matrix <- cor(numeric_cols, use = "complete.obs")
-mds_var_correlations <- cor_matrix[1:n_dims, 5:ncol(cor_matrix)]
+mds_var_correlations <- cor_matrix[1:n_dims, grepl("_est$", colnames(cor_matrix)), drop = FALSE]
 
 
 
@@ -119,7 +119,7 @@ cluster_shapes <- c(
 # MDS data for plotting
 mds_data <- data.frame(
   x = mds_coords[, 1],
-  y = mds_coords[, 2],
+  y = -mds_coords[, 2],
   country = rownames(mds_coords),
   cluster = cluster_factor
 )
@@ -162,45 +162,52 @@ variable_labels <- c(
 loadings_data <- data.frame(
   variable = colnames(mds_var_correlations),
   MDS1 = mds_var_correlations[1, ],
-  MDS2 = mds_var_correlations[2, ],
+  MDS2 = -mds_var_correlations[2, ],
   variable_clean = variable_labels[colnames(mds_var_correlations)]
 )
 
 # Scale factor for variable vectors
 scale_factor <- 4
 
-# Display controls to reduce overlap in the factor map.
-# Keep all variables in analysis, but show only the most informative vectors.
-show_all_vectors <- FALSE
-n_vectors_to_plot <- 13
-n_labels_to_plot <- 13
+# Select which loading vectors to show in the factor map.
+# Edit this vector to control the arrows that are plotted.
+selected_vector_variables <- c(
+  #"Unemp",
+  #"XinPercGDP",
+  #"GDPpcPPPDivFromMean", 
+  #"CAinPercGDP",
+  #"DebtPercGDP", 
+  #"FinanceShareVA",
+  #"ManufacturingShareVA",
+  #"AgricultureShareVA",
+  #"MiningShareVA",
+  #"GiniMkt",
+  #"FDInetinflow", 
+  #"FDInetoutflow",
+  #"FDIabsolute",
+  #"ECI",
+  # World Governance Indicators (WGI) and other social capability variables
+  "cc", #"Control of Corruption",
+  "ge", #"Government Effectiveness",
+  "pv", #"Political Stability and Absence of Violence/Terrorism",
+  "rq", #"Regulatory Quality",
+  "rl", #"Rule of Law",
+  "va",  #"Voice and Accountability"
+  "human_capital_index",
+  # Technological capability variables
+  "sjr_per_million",
+  "patent_applications_per_million"
+)
 
-# Filter variables based on correlation strength (optional)
+# Filter variables to the user-selected set.
 loadings_filtered <- loadings_data %>%
   mutate(variable = str_remove(variable, "_est$")) %>% 
-  mutate(correlation_strength = sqrt(MDS1^2 + MDS2^2)) %>%
-  filter(correlation_strength > 0) %>% 
+  filter(variable %in% selected_vector_variables) %>%
   left_join(variable_weights, by = "variable") %>%
-  mutate(avg_weight = ifelse(is.na(avg_weight), 0, avg_weight),
-         display_score = correlation_strength * avg_weight)
+  mutate(avg_weight = ifelse(is.na(avg_weight), 0, avg_weight))
 
-loadings_segments <- if (show_all_vectors) {
-  loadings_filtered
-} else {
-  loadings_filtered %>%
-    slice_max(order_by = correlation_strength,
-              n = n_vectors_to_plot,
-              with_ties = FALSE)
-}
-
-loadings_labels <- if (show_all_vectors) {
-  loadings_filtered
-} else {
-  loadings_segments %>%
-    slice_max(order_by = display_score,
-              n = n_labels_to_plot,
-              with_ties = FALSE)
-}
+loadings_segments <- loadings_filtered
+loadings_labels <- loadings_filtered
 
 
 # =============================================================================
@@ -267,9 +274,9 @@ mds_plot_alternative <- ggplot() +
                   segment.size = 0.3) +
   # Stress annotation
   annotate("text", 
-           x = Inf, y = Inf, 
+           x = -Inf, y = Inf, 
            label = if(!is.na(stress)) paste0("Kruskal's Stress = ", round(stress, 3)) else "Stress = N/A",
-           hjust = 1.1, vjust = 1.5,
+           hjust = -0.1, vjust = 1.5,
            size = 3.2,
            color = "grey40",
            fontface = "italic") +

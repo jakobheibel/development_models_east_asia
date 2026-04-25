@@ -86,7 +86,7 @@ numeric_cols <- correlation_data %>%
   dplyr::select_if(is.numeric)
 
 cor_matrix <- cor(numeric_cols, use = "complete.obs")
-mds_var_correlations <- cor_matrix[1:n_dims, 5:ncol(cor_matrix)]
+mds_var_correlations <- cor_matrix[1:n_dims, grepl("_est$", colnames(cor_matrix)), drop = FALSE]
 
 
 
@@ -147,14 +147,7 @@ variable_labels <- c(
   "MiningShareVA_est" = "Mining",
   "GiniMkt_est" = "Inequality (Gini)",
   "FDInetinflow_est" = "FDI Inflows",
-  "ECI_est" = "ECI"#,
-  #"cc_est" = "Control of Corruption",
-  #"ge_est" = "Government Effectiveness",
-  #"pv_est" = "Political Stability",
-  #"rq_est" = "Regulatory Quality",
-  #"rl_est" = "Rule of Law",
-  #"va_est" = "Voice and Accountability"
-)
+  "ECI_est" = "ECI")
 
 loadings_data <- data.frame(
   variable = colnames(mds_var_correlations),
