@@ -1,0 +1,38 @@
+{
+  "chart": {
+    "title": "Annual patent applications per million people",
+    "note": "Patents are assigned based on the residence country of the first-named applicant.",
+    "citation": "World Intellectual Property Organization (WIPO), via World Bank (2026); United Nations Population Division, national statistical offices, and Eurostat, via World Bank (2026)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/patent-applications-per-million?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "China",
+      "United States",
+      "Japan",
+      "Germany",
+      "South Korea"
+    ]
+  },
+  "columns": {
+    "Patent applications per million people": {
+      "titleShort": "Patent applications per million people",
+      "titleLong": "Patent applications per million people",
+      "descriptionKey": [
+        "Patent applications per million people are calculated by Our World in Data based on patent data from the World Bank's World Development Indicators, and population estimates from the United Nations World Population Prospects.",
+        "Patents are assigned based on the residence country of the first-named applicant."
+      ],
+      "shortUnit": "",
+      "unit": "applications per million people",
+      "timespan": "1980-2021",
+      "type": "Numeric",
+      "owidVariableId": 1205628,
+      "shortName": "patents_per_million_people",
+      "lastUpdated": "2026-02-27",
+      "nextUpdate": "2027-02-27",
+      "citationShort": "World Intellectual Property Organization (WIPO), via World Bank (2026); United Nations Population Division, national statistical offices, and Eurostat, via World Bank (2026) – processed by Our World in Data",
+      "citationLong": "World Intellectual Property Organization (WIPO), via World Bank (2026); United Nations Population Division, national statistical offices, and Eurostat, via World Bank (2026) – processed by Our World in Data. “Patent applications per million people” [dataset]. World Intellectual Property Organization (WIPO), via World Bank, “World Development Indicators 125”; United Nations Population Division, national statistical offices, and Eurostat, via World Bank, “World Development Indicators 125” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1205628.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-04-25",
+  "activeFilters": {}
+}
