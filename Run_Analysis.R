@@ -17,7 +17,7 @@ library(here)
 #source(here("R/data-prep/a_value_added_data.R"))
 #source(here("R/data-prep/b_data_prep.R"))
 #source(here("R/data-prep/c_institutional_vars.R"))
-## datasets macro_world, macro_inst_world already created & saved in data
+## datasets macro_world, macro_inst_world already created & saved in /data
 
 # Clustering
 

@@ -37,32 +37,33 @@ end_year = 2019
 
 var_names <- c(
   "Unemp",
-  "XinPercGDP", # Exports of Goods and Services (% of GDP)
+  "XinPercGDP",
   #"GDPgrowth",
-  #"GDPpcPPP",
-  "GDPpcPPPDivFromMean", #GDP per capita (Deviation from Sample Mean) 
-  #"LaborShare", # missing data 
-  "CAinPercGDP", # Current Account Balance (% of GDP)
-  "DebtPercGDP",
-  "FinanceShareVA", # Finance & Insurance Share in GVA
+  "GDPpcPPPDivFromMean", 
+  #"LaborShare", # not enough data
+  "CAinPercGDP",
+  "DebtPercGDP", 
+  "FinanceShareVA",
   "ManufacturingShareVA",
   "AgricultureShareVA",
   "MiningShareVA",
   "GiniMkt",
-  "FDInetinflow", # divides HKG, SGP and Malaysia
-  #"FDIoutflow", # Using FDI in- or outflows does hardly change the results
-  # (high correlation coefficient between the two variables ~ 0.74)
+  "FDInetinflow", 
+  #"FDInetoutflow",
   #"FDIabsolute",
   "ECI",
-  # World Governance Indicators (WGI) and other institutional variables
-	"cc", #"Control of Corruption",
-	"ge", #"Government Effectiveness",
-	"pv", #"Political Stability and Absence of Violence/Terrorism",
-	"rq", #"Regulatory Quality",
-	"rl", #"Rule of Law",
-	"va"  #"Voice and Accountability"
-  #"LibDem"
-)
+  # World Governance Indicators (WGI) and other social capability variables
+  "cc", #"Control of Corruption",
+  "ge", #"Government Effectiveness",
+  "pv", #"Political Stability and Absence of Violence/Terrorism",
+  "rq", #"Regulatory Quality",
+  "rl", #"Rule of Law",
+  "va",  #"Voice and Accountability"
+  #"LibDem",
+  "human_capital_index",
+  # Technological capability variables
+  "sjr_per_million",
+  "patent_applications_per_million")
 
 variable_list <- list(
   `All Variables` = var_names,
@@ -76,7 +77,12 @@ variable_list <- list(
     var_names != "MiningShareVA" &
     var_names != "FinanceShareVA" &
     var_names != "ECI"],
-  `Excl. Institutional Variables` = var_names[!var_names %in% c("cc", "ge", "pv", "rq", "rl", "va")]
+  `Excl. Governance Variables` = var_names[
+    !var_names %in% c("cc", "ge", "pv", "rq", "rl", "va")],
+  #`Excl. Liberal Democracy Index` = var_names[!var_names %in% c("LibDem")],
+  `Excl. Technological Capability Variables` = var_names[
+    !var_names %in% c("sjr_per_million", "patent_applications_per_million")],
+  `Excl. Human Capital Index` = var_names[!var_names %in% c("human_capital_index")]
 )
 
 # Number of country groupings

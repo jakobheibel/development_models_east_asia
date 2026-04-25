@@ -16,7 +16,7 @@ library(patchwork)
 # DATA LOADING
 # =============================================================================
 
-load(here("output/cluster_results/FE_Clust_EA_inst_2000_2019.RData"))
+load(here("output/cluster_results/cluster_results_inst/FE_Clust_EA_inst_2000_2019.RData"))
 cluster_obj <- results$agnes_results
 dist_matrix <- results$weighted_distances
 panel_estimates <- results$panel_estimates
@@ -152,7 +152,11 @@ variable_labels <- c(
   "pv_est" = "Political Stability",
   "rq_est" = "Regulatory Quality",
   "rl_est" = "Rule of Law",
-  "va_est" = "Voice and Accountability"
+  "va_est" = "Voice and Accountability",
+  #"LibDem_est" = "Lib. Democracy",
+  "human_capital_index_est" = "HCI",
+  "sjr_per_million_est" = "Journal Publications",
+  "patent_applications_per_million_est" = "Patent Applications"
 )
 
 loadings_data <- data.frame(
@@ -165,12 +169,38 @@ loadings_data <- data.frame(
 # Scale factor for variable vectors
 scale_factor <- 4
 
+# Display controls to reduce overlap in the factor map.
+# Keep all variables in analysis, but show only the most informative vectors.
+show_all_vectors <- FALSE
+n_vectors_to_plot <- 13
+n_labels_to_plot <- 13
+
 # Filter variables based on correlation strength (optional)
 loadings_filtered <- loadings_data %>%
   mutate(variable = str_remove(variable, "_est$")) %>% 
   mutate(correlation_strength = sqrt(MDS1^2 + MDS2^2)) %>%
   filter(correlation_strength > 0) %>% 
-  left_join(variable_weights, by = "variable")
+  left_join(variable_weights, by = "variable") %>%
+  mutate(avg_weight = ifelse(is.na(avg_weight), 0, avg_weight),
+         display_score = correlation_strength * avg_weight)
+
+loadings_segments <- if (show_all_vectors) {
+  loadings_filtered
+} else {
+  loadings_filtered %>%
+    slice_max(order_by = correlation_strength,
+              n = n_vectors_to_plot,
+              with_ties = FALSE)
+}
+
+loadings_labels <- if (show_all_vectors) {
+  loadings_filtered
+} else {
+  loadings_segments %>%
+    slice_max(order_by = display_score,
+              n = n_labels_to_plot,
+              with_ties = FALSE)
+}
 
 
 # =============================================================================
@@ -200,7 +230,7 @@ mds_plot_alternative <- ggplot() +
   geom_hline(yintercept = 0, color = "grey60", linewidth = 0.4, linetype = "solid") +
   geom_vline(xintercept = 0, color = "grey60", linewidth = 0.4, linetype = "solid") +
   # Variable vectors - um Faktor 4 skaliert, gleiches Layout wie im loadings_plot
-  geom_segment(data = loadings_filtered,
+  geom_segment(data = loadings_segments,
                aes(x = 0, y = 0,
                    xend = MDS1 * scale_factor,
                    yend = MDS2 * scale_factor,
@@ -212,7 +242,7 @@ mds_plot_alternative <- ggplot() +
                linejoin = "mitre") +
   scale_linewidth(range = c(0.4, 1.6), name = "Scaling Factor") +
   # Variable labels
-  geom_text_repel(data = loadings_filtered,
+  geom_text_repel(data = loadings_labels,
                   aes(x = MDS1 * scale_factor,
                       y = MDS2 * scale_factor,
                       label = variable_clean),

@@ -48,15 +48,18 @@ var_names <- c(
   #"FDInetoutflow",
   #"FDIabsolute",
   "ECI",
-  # World Governance Indicators (WGI) and other institutional variables
+  # World Governance Indicators (WGI) and other social capability variables
 	"cc", #"Control of Corruption",
 	"ge", #"Government Effectiveness",
 	"pv", #"Political Stability and Absence of Violence/Terrorism",
 	"rq", #"Regulatory Quality",
 	"rl", #"Rule of Law",
-	"va"  #"Voice and Accountability"
-  #"LibDem"
-)
+	"va",  #"Voice and Accountability"
+  #"LibDem",
+  "human_capital_index",
+  # Technological capability variables
+  "sjr_per_million",
+  "patent_applications_per_million")
 
 # Time periods to consider
 

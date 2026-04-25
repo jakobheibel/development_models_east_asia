@@ -105,7 +105,7 @@ research_spending <- research_spending_raw %>%
          research_spending_gdp =
            `Research and development expenditure (% of GDP)`) %>%
   select(ISO, Year, research_spending_gdp) %>% 
-  bind_rows(research_spending_twn)
+  bind_rows(research_spending_twn) # too many NAs for cluster analysis
 
 # Combine institutional vars with macro vars from macro_world data -------------
 
