@@ -199,15 +199,18 @@ selected_vector_variables <- c(
   "patent_applications_per_million"
 )
 
-# Filter variables to the user-selected set.
-loadings_filtered <- loadings_data %>%
-  mutate(variable = str_remove(variable, "_est$")) %>% 
-  filter(variable %in% selected_vector_variables) %>%
+# Keep all vectors for arrows; mark selected variables for highlighting/labeling.
+loadings_all <- loadings_data %>%
+  mutate(variable = str_remove(variable, "_est$")) %>%
   left_join(variable_weights, by = "variable") %>%
-  mutate(avg_weight = ifelse(is.na(avg_weight), 0, avg_weight))
+  mutate(
+    avg_weight = ifelse(is.na(avg_weight), 0, avg_weight),
+    is_selected = variable %in% selected_vector_variables
+  )
 
-loadings_segments <- loadings_filtered
-loadings_labels <- loadings_filtered
+loadings_segments_all <- loadings_all
+loadings_segments_selected <- loadings_all %>% filter(is_selected)
+loadings_labels <- loadings_all %>% filter(is_selected)
 
 
 # =============================================================================
@@ -236,17 +239,30 @@ mds_plot_alternative <- ggplot() +
   # Nulllinien
   geom_hline(yintercept = 0, color = "grey60", linewidth = 0.4, linetype = "solid") +
   geom_vline(xintercept = 0, color = "grey60", linewidth = 0.4, linetype = "solid") +
-  # Variable vectors - um Faktor 4 skaliert, gleiches Layout wie im loadings_plot
-  geom_segment(data = loadings_segments,
+    # Variable vectors (all in grey)
+    geom_segment(data = loadings_segments_all,
                aes(x = 0, y = 0,
                    xend = MDS1 * scale_factor,
                    yend = MDS2 * scale_factor,
                    linewidth = avg_weight),
                arrow = arrow(length = unit(0.15, "cm"), type = "closed", angle = 20),
-               color = "grey30",
+           color = "grey75",
+           alpha = 0.9,
                linetype = "solid",
                lineend = "butt",
                linejoin = "mitre") +
+    # Highlight selected variable vectors
+    geom_segment(data = loadings_segments_selected,
+           aes(x = 0, y = 0,
+             xend = MDS1 * scale_factor,
+             yend = MDS2 * scale_factor,
+             linewidth = avg_weight),
+           arrow = arrow(length = unit(0.15, "cm"), type = "closed", angle = 20),
+           color = "grey30",
+           alpha = 1,
+           linetype = "solid",
+           lineend = "butt",
+           linejoin = "mitre") +
   scale_linewidth(range = c(0.4, 1.6), name = "Scaling Factor") +
   # Variable labels
   geom_text_repel(data = loadings_labels,
@@ -347,15 +363,22 @@ mds_plot_alternative <- ggplot() +
 
 print(mds_plot_alternative)
 
+# Choose output dimensions based on data aspect ratio.
+# This keeps the MDS geometry (coord_fixed = 1) but avoids excess top/bottom whitespace.
+export_width <- 10.5
+data_aspect_ratio <- diff(ylim) / diff(xlim)
+panel_height <- export_width * data_aspect_ratio
+export_height <- max(5.0, panel_height + 1.8)
+
 # Save plot
 ggsave(here("output/mds_factor_map_inst.pdf"),
        plot = mds_plot_alternative,
-       width = 10.5, height = 7,
+  width = export_width, height = export_height,
        device = cairo_pdf,
        dpi = 300)
 
 ggsave(here("output/mds_factor_map_inst.svg"),
        plot = mds_plot_alternative,
-       width = 10.5, height = 7,
+  width = export_width, height = export_height,
        #device = cairo_pdf,
        dpi = 300)

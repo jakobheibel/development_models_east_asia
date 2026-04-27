@@ -41,6 +41,7 @@ load(here("data/country_summary_table_EA.RData"))
 
 load(here("output/cluster_results/FE_Clust_EA_selection_All Variables.RData"))
 #load(here("output/cluster_results/FE_Clust_EA_2000_2019.RData")) # identical
+#load(here("output/cluster_results/cluster_results_inst/FE_Clust_EA_inst_2000_2019.RData")) # inst results
 
 # Summary tables ---------------------------------------------------------------
 
