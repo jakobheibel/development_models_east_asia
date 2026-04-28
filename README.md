@@ -1,11 +1,10 @@
 # Development Models in East Asia
 
 ## Overview
-Code for the paper: **"Beyond the Developmental State: Exploring the Variety of Development Models in East Asia"** (2025) by Jakob Heibel, Jonas Dominy, and Jakob Kapeller. [Published](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp57_hdk2025.pdf) as a working paper in the *ifso working paper* series (no. 57, 2025).
+Code for the working paper: **"Beyond the Developmental State: Exploring the Variety of Development Models in East Asia"** (2025) by Jakob Heibel, Jonas Dominy, and Jakob Kapeller. Available online as a working paper in the *ifso working paper* series [(no. 57, 2025)]((https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp57_hdk2025.pdf)).
 
 This study employs a data-driven approach based on a multidimensional cluster
-analysis of 15 East Asian economies across 12 macroeconomic dimensions for the period
-2000-2019 to develop a concise typology of development models in East Asia.
+analysis of 15 East Asian economies across 12 macroeconomic dimensions for the period 2000-2019 to develop a concise typology of development models in East Asia.
 
 The code for this project is based on the [code](https://github.com/dominyj/EconomicPolarizationEU2025.git) from the paper [**"Economic Polarization in the European Union: Development Models in the Race for the Best Location"** (2025) by Jonas Dominy, Claudius Gräbner-Radkowitsch, Philipp Heimberger, and Jakob Kapeller](https://www.uni-due.de/imperia/md/content/soziooekonomie/ifsowp46_dghk2025.pdf).
 
