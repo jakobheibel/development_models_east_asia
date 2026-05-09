@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='756.00pt' height='439.27pt' viewBox='0 0 756.00 439.27'>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='756.00pt' height='385.98pt' viewBox='0 0 756.00 385.98'>
 <g class='svglite'>
 <defs>
   <style type='text/css'><![CDATA[
@@ -21,330 +21,492 @@
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
 <defs>
-  <clipPath id='cpMC4wMHw3NTYuMDB8MC4wMHw0MzkuMjc='>
-    <rect x='0.00' y='0.00' width='756.00' height='439.27' />
+  <clipPath id='cpMC4wMHw3NTYuMDB8MC4wMHwzODUuOTg='>
+    <rect x='0.00' y='0.00' width='756.00' height='385.98' />
   </clipPath>
 </defs>
-<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHw0MzkuMjc=)'>
+<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHwzODUuOTg=)'>
 </g>
 <defs>
-  <clipPath id='cpMC4wMHw3NTYuMDB8MTQuNjN8NDI0LjY0'>
-    <rect x='0.00' y='14.63' width='756.00' height='410.01' />
+  <clipPath id='cpMC4wMHw3NTYuMDB8MTMuODZ8MzcyLjEy'>
+    <rect x='0.00' y='13.86' width='756.00' height='358.25' />
   </clipPath>
 </defs>
-<g clip-path='url(#cpMC4wMHw3NTYuMDB8MTQuNjN8NDI0LjY0)'>
-<rect x='0.00' y='14.63' width='756.00' height='410.01' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+<g clip-path='url(#cpMC4wMHw3NTYuMDB8MTMuODZ8MzcyLjEy)'>
+<rect x='0.00' y='13.86' width='756.00' height='358.25' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
 </g>
-<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHw0MzkuMjc=)'>
-<rect x='16.68' y='36.90' width='734.34' height='300.80' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<polyline points='16.68,269.94 751.02,269.94 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polyline points='16.68,187.29 751.02,187.29 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polyline points='16.68,104.65 751.02,104.65 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polyline points='177.24,337.69 177.24,36.90 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polyline points='383.85,337.69 383.85,36.90 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polyline points='590.46,337.69 590.46,36.90 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
-<polygon points='105.88,233.74 119.99,143.79 130.49,143.65 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #925E9F; fill-opacity: 0.12;' />
-<polygon points='308.47,206.78 265.69,200.97 228.04,180.71 287.08,147.41 445.11,167.01 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #ED0000; fill-opacity: 0.12;' />
-<polygon points='680.52,50.57 717.64,63.36 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #0099B4; fill-opacity: 0.12;' />
-<polygon points='555.42,309.73 606.88,292.83 628.57,297.81 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #42B540; fill-opacity: 0.12;' />
-<polygon points='105.88,233.74 119.99,143.79 130.49,143.65 ' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt;' />
-<polygon points='308.47,206.78 265.69,200.97 228.04,180.71 287.08,147.41 445.11,167.01 ' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt;' />
-<polygon points='680.52,50.57 717.64,63.36 ' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt;' />
-<polygon points='555.42,309.73 606.88,292.83 628.57,297.81 ' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt;' />
-<line x1='16.68' y1='187.29' x2='751.02' y2='187.29' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
-<line x1='383.85' y1='337.69' x2='383.85' y2='36.90' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
-<line x1='383.85' y1='187.29' x2='452.49' y2='193.44' style='stroke-width: 2.01; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='448.38,194.54 452.49,193.44 448.64,191.64 ' style='stroke-width: 2.01; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='480.44' y2='69.99' style='stroke-width: 2.43; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='479.02,74.00 480.44,69.99 476.77,72.15 ' style='stroke-width: 2.43; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='533.53' y2='156.84' style='stroke-width: 2.99; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='529.90,159.06 533.53,156.84 529.32,156.21 ' style='stroke-width: 2.99; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='510.81' y2='169.83' style='stroke-width: 1.66; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='507.05,171.81 510.81,169.83 506.66,168.93 ' style='stroke-width: 1.66; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='436.43' y2='229.12' style='stroke-width: 1.51; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='432.40,227.77 436.43,229.12 434.21,225.49 ' style='stroke-width: 1.51; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='512.73' y2='115.51' style='stroke-width: 2.59; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='509.95,118.73 512.73,115.51 508.53,116.19 ' style='stroke-width: 2.59; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='389.49' y2='285.42' style='stroke-width: 2.01; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='387.81,281.51 389.49,285.42 390.72,281.35 ' style='stroke-width: 2.01; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='225.12' y2='154.88' style='stroke-width: 1.94; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='229.33,154.25 225.12,154.88 228.75,157.10 ' style='stroke-width: 1.94; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='298.73' y2='158.20' style='stroke-width: 2.23; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='302.99,158.11 298.73,158.20 302.04,160.87 ' style='stroke-width: 2.23; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='423.11' y2='125.34' style='stroke-width: 2.15; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='422.20,129.49 423.11,125.34 419.75,127.94 ' style='stroke-width: 2.15; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='443.69' y2='51.16' style='stroke-width: 1.90; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='443.41,55.41 443.69,51.16 440.75,54.24 ' style='stroke-width: 1.90; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='524.59' y2='258.56' style='stroke-width: 3.10; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='520.37,258.06 524.59,258.56 521.69,255.46 ' style='stroke-width: 3.10; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='544.36' y2='172.09' style='stroke-width: 2.92; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='540.52,173.92 544.36,172.09 540.25,171.02 ' style='stroke-width: 2.92; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='547.00' y2='189.90' style='stroke-width: 3.41; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='542.98,191.29 547.00,189.90 543.03,188.38 ' style='stroke-width: 3.41; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='500.62' y2='187.27' style='stroke-width: 1.77; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='496.63,188.72 500.62,187.27 496.63,185.81 ' style='stroke-width: 1.77; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='545.61' y2='171.21' style='stroke-width: 3.35; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='541.78,173.06 545.61,171.21 541.49,170.16 ' style='stroke-width: 3.35; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='546.46' y2='201.34' style='stroke-width: 2.80; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='542.35,202.45 546.46,201.34 542.60,199.55 ' style='stroke-width: 2.80; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='514.98' y2='244.15' style='stroke-width: 2.44; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='510.74,243.90 514.98,244.15 511.89,241.23 ' style='stroke-width: 2.44; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='533.34' y2='238.74' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='529.09,238.81 533.34,238.74 530.03,236.06 ' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='530.65' y2='142.28' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='527.26,144.84 530.65,142.28 526.41,142.06 ' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='472.97' y2='318.69' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='469.53,316.20 472.97,318.69 471.93,314.56 ' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='383.85' y1='187.29' x2='544.36' y2='172.09' style='stroke-width: 2.92; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='540.52,173.92 544.36,172.09 540.25,171.02 ' style='stroke-width: 2.92; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='547.00' y2='189.90' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='542.98,191.29 547.00,189.90 543.03,188.38 ' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='500.62' y2='187.27' style='stroke-width: 1.77; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='496.63,188.72 500.62,187.27 496.63,185.81 ' style='stroke-width: 1.77; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='545.61' y2='171.21' style='stroke-width: 3.35; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='541.78,173.06 545.61,171.21 541.49,170.16 ' style='stroke-width: 3.35; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='546.46' y2='201.34' style='stroke-width: 2.80; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='542.35,202.45 546.46,201.34 542.60,199.55 ' style='stroke-width: 2.80; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='514.98' y2='244.15' style='stroke-width: 2.44; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='510.74,243.90 514.98,244.15 511.89,241.23 ' style='stroke-width: 2.44; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='533.34' y2='238.74' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='529.09,238.81 533.34,238.74 530.03,236.06 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='530.65' y2='142.28' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='527.26,144.84 530.65,142.28 526.41,142.06 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<line x1='383.85' y1='187.29' x2='472.97' y2='318.69' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
-<polygon points='469.53,316.20 472.97,318.69 471.93,314.56 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
-<text x='501.88' y='181.81' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.69' y='181.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.41' y='181.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.07' y='181.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.73' y='181.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.45' y='181.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.26' y='181.81' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.19' y='182.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.26' y='182.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.45' y='182.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='500.73' y='182.96' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.07' y='183.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.41' y='182.96' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.69' y='182.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.88' y='182.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.95' y='182.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='501.07' y='182.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
-<text x='606.29' y='189.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='606.10' y='189.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.81' y='189.19' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.48' y='189.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.14' y='189.19' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='604.85' y='189.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='604.66' y='189.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='604.60' y='190.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='604.66' y='190.34' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='604.85' y='190.63' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.14' y='190.82' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.48' y='190.89' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.81' y='190.82' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='606.10' y='190.63' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='606.29' y='190.34' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='606.36' y='190.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='605.48' y='190.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
-<text x='484.25' y='197.04' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='484.06' y='196.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.77' y='196.57' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.44' y='196.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.10' y='196.57' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='482.81' y='196.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='482.62' y='197.04' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='482.56' y='197.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='482.62' y='197.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='482.81' y='198.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.10' y='198.19' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.44' y='198.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.77' y='198.19' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='484.06' y='198.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='484.25' y='197.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='484.32' y='197.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='483.44' y='197.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
-<text x='563.94' y='166.57' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.75' y='166.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.46' y='166.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.13' y='166.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.79' y='166.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.50' y='166.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.31' y='166.57' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.25' y='166.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.31' y='167.24' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.50' y='167.53' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='562.79' y='167.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.13' y='167.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.46' y='167.72' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.75' y='167.53' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.94' y='167.24' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='564.01' y='166.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='563.13' y='166.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
-<text x='564.71' y='211.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.52' y='210.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.24' y='210.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.90' y='210.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.56' y='210.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.28' y='210.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.09' y='211.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.02' y='211.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.09' y='211.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.28' y='212.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.56' y='212.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.90' y='212.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.24' y='212.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.52' y='212.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.71' y='211.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='564.78' y='211.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='563.90' y='211.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
-<text x='498.36' y='253.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='498.17' y='253.69' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.89' y='253.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.55' y='253.43' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.21' y='253.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='496.93' y='253.69' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='496.74' y='253.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='496.67' y='254.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='496.74' y='254.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='496.93' y='254.93' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.21' y='255.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.55' y='255.19' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.89' y='255.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='498.17' y='254.93' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='498.36' y='254.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='498.43' y='254.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='497.55' y='254.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
-<text x='546.81' y='236.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.62' y='236.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.33' y='235.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.00' y='235.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.66' y='235.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.37' y='236.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.18' y='236.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.12' y='236.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.18' y='236.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.37' y='237.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='545.66' y='237.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.00' y='237.53' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.33' y='237.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.62' y='237.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.81' y='236.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.88' y='236.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='546.00' y='236.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='14.69px' lengthAdjust='spacingAndGlyphs'>HCI</text>
-<text x='549.15' y='137.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.95' y='137.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.67' y='137.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.33' y='137.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.00' y='137.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='547.71' y='137.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='547.52' y='137.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='547.45' y='138.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='547.52' y='138.43' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='547.71' y='138.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.00' y='138.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.33' y='138.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.67' y='138.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.95' y='138.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='549.15' y='138.43' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='549.21' y='138.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='548.33' y='138.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='84.00px' lengthAdjust='spacingAndGlyphs'>Journal Publications</text>
-<text x='491.21' y='314.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='491.02' y='313.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.74' y='313.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.40' y='313.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.06' y='313.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='489.78' y='313.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='489.59' y='314.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='489.52' y='314.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='489.59' y='314.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='489.78' y='314.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.06' y='315.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.40' y='315.25' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.74' y='315.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='491.02' y='314.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='491.21' y='314.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='491.28' y='314.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<text x='490.40' y='314.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='79.41px' lengthAdjust='spacingAndGlyphs'>Patent Applications</text>
-<circle cx='130.49' cy='143.65' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
-<polygon points='308.47,200.42 313.98,209.96 302.97,209.96 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<polygon points='676.43,54.66 684.61,54.66 684.61,46.48 676.43,46.48 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
-<polygon points='265.69,194.61 271.20,204.15 260.18,204.15 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<polygon points='624.48,297.81 628.57,293.72 632.66,297.81 628.57,301.90 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
-<circle cx='119.99' cy='143.79' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
-<polygon points='445.11,160.65 450.62,170.19 439.61,170.19 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<polygon points='287.08,141.05 292.59,150.58 281.58,150.58 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<circle cx='105.88' cy='233.74' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
-<polygon points='322.06,179.06 327.57,188.60 316.55,188.60 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<polygon points='713.55,67.45 721.73,67.45 721.73,59.27 713.55,59.27 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
-<polygon points='551.33,309.73 555.42,305.64 559.50,309.73 555.42,313.82 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
-<polygon points='602.79,292.83 606.88,288.74 610.97,292.83 606.88,296.92 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
-<polygon points='355.89,179.27 361.39,188.81 350.38,188.81 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<polygon points='228.04,174.35 233.54,183.89 222.53,183.89 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
-<text x='147.63' y='139.51' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='38.91px' lengthAdjust='spacingAndGlyphs'>Cambodia</text>
-<text x='292.01' y='216.41' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='22.30px' lengthAdjust='spacingAndGlyphs'>China</text>
-<text x='655.38' y='46.41' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Liberation Sans";' textLength='42.72px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
-<text x='247.84' y='211.10' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='37.03px' lengthAdjust='spacingAndGlyphs'>Indonesia</text>
-<text x='645.35' y='307.59' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='23.27px' lengthAdjust='spacingAndGlyphs'>Japan</text>
-<text x='105.56' y='152.66' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='18.52px' lengthAdjust='spacingAndGlyphs'>Laos</text>
-<text x='462.45' y='162.76' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='33.67px' lengthAdjust='spacingAndGlyphs'>Malaysia</text>
-<text x='304.34' y='143.22' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='34.64px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
-<text x='123.73' y='229.48' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='35.58px' lengthAdjust='spacingAndGlyphs'>Myanmar</text>
-<text x='304.17' y='181.14' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='41.27px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
-<text x='727.87' y='73.46' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Liberation Sans";' textLength='38.92px' lengthAdjust='spacingAndGlyphs'>Singapore</text>
-<text x='572.74' y='305.52' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='47.47px' lengthAdjust='spacingAndGlyphs'>South Korea</text>
-<text x='589.37' y='288.56' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='26.56px' lengthAdjust='spacingAndGlyphs'>Taiwan</text>
-<text x='373.42' y='195.67' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='32.75px' lengthAdjust='spacingAndGlyphs'>Thailand</text>
-<text x='210.86' y='190.73' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='31.16px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
-<text x='26.49' y='46.28' style='font-size: 9.10px; font-style: italic;fill: #666666; font-family: "Liberation Sans";' textLength='98.08px' lengthAdjust='spacingAndGlyphs'>Kruskal's Stress = 0.072</text>
-<rect x='16.68' y='36.90' width='734.34' height='300.80' style='stroke-width: 1.07; stroke: #999999;' />
-<text x='383.85' y='347.31' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 1</text>
-<text transform='translate(11.86,187.29) rotate(-90)' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 2</text>
-<rect x='187.34' y='352.22' width='393.01' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='192.82' y='369.44' style='font-size: 9.00px; font-weight: bold; font-family: "Liberation Sans";' textLength='31.00px' lengthAdjust='spacingAndGlyphs'>Cluster</text>
-<rect x='229.30' y='357.70' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='230.15' y='358.55' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt;' />
-<circle cx='237.94' cy='366.34' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F;' />
-<rect x='291.82' y='357.70' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='292.67' y='358.55' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt;' />
-<polygon points='300.46,359.98 305.97,369.52 294.96,369.52 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000;' />
-<rect x='396.17' y='357.70' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='397.02' y='358.55' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt;' />
-<polygon points='400.72,370.43 408.90,370.43 408.90,362.25 400.72,362.25 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4;' />
-<rect x='473.80' y='357.70' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<rect x='474.65' y='358.55' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt;' />
-<polygon points='478.35,366.34 482.44,362.25 486.53,366.34 482.44,370.43 ' style='stroke-width: 0.71; stroke: none; fill: #42B540;' />
-<text x='252.06' y='369.09' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='34.28px' lengthAdjust='spacingAndGlyphs'>Periphery</text>
-<text x='314.58' y='369.09' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='76.11px' lengthAdjust='spacingAndGlyphs'>Emerging Economies</text>
-<text x='418.93' y='369.09' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='49.39px' lengthAdjust='spacingAndGlyphs'>Finance Hubs</text>
-<text x='496.56' y='369.09' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='78.31px' lengthAdjust='spacingAndGlyphs'>Developmental States</text>
-<rect x='259.73' y='391.42' width='248.23' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='265.21' y='408.64' style='font-size: 9.00px; font-weight: bold; font-family: "Liberation Sans";' textLength='62.00px' lengthAdjust='spacingAndGlyphs'>Scaling Factor</text>
-<rect x='332.69' y='396.90' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<line x1='334.42' y1='405.54' x2='348.25' y2='405.54' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
-<polygon points='344.25,406.99 348.25,405.54 344.25,404.09 ' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='334.42' y1='405.54' x2='348.25' y2='405.54' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt;' />
-<polygon points='344.25,406.99 348.25,405.54 344.25,404.09 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
-<rect x='376.51' y='396.90' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<line x1='378.24' y1='405.54' x2='392.06' y2='405.54' style='stroke-width: 1.51; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
-<polygon points='388.07,406.99 392.06,405.54 388.07,404.09 ' style='stroke-width: 1.51; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='378.24' y1='405.54' x2='392.06' y2='405.54' style='stroke-width: 1.51; stroke: #4D4D4D; stroke-linecap: butt;' />
-<polygon points='388.07,406.99 392.06,405.54 388.07,404.09 ' style='stroke-width: 1.51; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
-<rect x='420.33' y='396.90' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<line x1='422.06' y1='405.54' x2='435.88' y2='405.54' style='stroke-width: 2.17; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
-<polygon points='431.88,406.99 435.88,405.54 431.88,404.09 ' style='stroke-width: 2.17; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='422.06' y1='405.54' x2='435.88' y2='405.54' style='stroke-width: 2.17; stroke: #4D4D4D; stroke-linecap: butt;' />
-<polygon points='431.88,406.99 435.88,405.54 431.88,404.09 ' style='stroke-width: 2.17; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
-<rect x='464.14' y='396.90' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<line x1='465.87' y1='405.54' x2='479.70' y2='405.54' style='stroke-width: 2.83; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
-<polygon points='475.70,406.99 479.70,405.54 475.70,404.09 ' style='stroke-width: 2.83; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
-<line x1='465.87' y1='405.54' x2='479.70' y2='405.54' style='stroke-width: 2.83; stroke: #4D4D4D; stroke-linecap: butt;' />
-<polygon points='475.70,406.99 479.70,405.54 475.70,404.09 ' style='stroke-width: 2.83; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
-<text x='355.45' y='408.29' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.00</text>
-<text x='399.27' y='408.29' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.02</text>
-<text x='443.09' y='408.29' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.04</text>
-<text x='486.90' y='408.29' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.06</text>
-<text x='16.68' y='28.68' style='font-size: 13.20px; font-family: "Liberation Sans";' textLength='346.59px' lengthAdjust='spacingAndGlyphs'>Multidimensional Scaling Analysis of East Asian Economies</text>
+<g clip-path='url(#cpMC4wMHw3NTYuMDB8MC4wMHwzODUuOTg=)'>
+<rect x='16.68' y='36.13' width='734.34' height='249.04' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<polyline points='16.68,232.97 751.02,232.97 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='16.68,160.65 751.02,160.65 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='16.68,88.33 751.02,88.33 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='22.26,285.17 22.26,36.13 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='203.06,285.17 203.06,36.13 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='383.85,285.17 383.85,36.13 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='564.64,285.17 564.64,36.13 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='745.43,285.17 745.43,36.13 ' style='stroke-width: 0.43; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polygon points='282.17,181.66 133.83,168.16 157.32,114.40 285.26,86.96 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #925E9F; fill-opacity: 0.12;' />
+<polygon points='318.29,201.91 332.13,181.16 438.61,165.03 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #ED0000; fill-opacity: 0.12;' />
+<polygon points='659.36,47.45 717.64,92.79 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #0099B4; fill-opacity: 0.12;' />
+<polygon points='581.55,238.62 505.15,236.75 561.73,229.18 ' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; fill: #42B540; fill-opacity: 0.12;' />
+<polygon points='282.17,181.66 133.83,168.16 157.32,114.40 285.26,86.96 ' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt;' />
+<polygon points='318.29,201.91 332.13,181.16 438.61,165.03 ' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt;' />
+<polygon points='659.36,47.45 717.64,92.79 ' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt;' />
+<polygon points='581.55,238.62 505.15,236.75 561.73,229.18 ' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt;' />
+<line x1='16.68' y1='160.65' x2='751.02' y2='160.65' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
+<line x1='383.85' y1='285.17' x2='383.85' y2='36.13' style='stroke-width: 0.85; stroke: #999999; stroke-linecap: butt;' />
+<line x1='383.85' y1='160.65' x2='454.42' y2='152.91' style='stroke-width: 1.53; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='450.60,154.79 454.42,152.91 450.29,151.90 ' style='stroke-width: 1.53; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='480.46' y2='67.35' style='stroke-width: 2.09; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='478.60,71.17 480.46,67.35 476.58,69.08 ' style='stroke-width: 2.09; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='517.91' y2='137.99' style='stroke-width: 2.84; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='514.21,140.09 517.91,137.99 513.72,137.23 ' style='stroke-width: 2.84; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='496.31' y2='173.48' style='stroke-width: 1.05; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='492.17,174.48 496.31,173.48 492.50,171.59 ' style='stroke-width: 1.05; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='413.88' y2='197.60' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='410.23,195.42 413.88,197.60 412.49,193.58 ' style='stroke-width: 0.85; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='503.46' y2='107.28' style='stroke-width: 2.31; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='500.40,110.23 503.46,107.28 499.22,107.58 ' style='stroke-width: 2.31; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='392.96' y2='272.59' style='stroke-width: 1.53; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='391.19,268.73 392.96,272.59 394.09,268.49 ' style='stroke-width: 1.53; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='251.77' y2='138.25' style='stroke-width: 1.43; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='255.95,137.49 251.77,138.25 255.46,140.36 ' style='stroke-width: 1.43; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='313.51' y2='113.91' style='stroke-width: 1.81; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='317.64,114.91 313.51,113.91 316.03,117.34 ' style='stroke-width: 1.81; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='437.38' y2='138.57' style='stroke-width: 1.71; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='434.25,141.44 437.38,138.57 433.14,138.75 ' style='stroke-width: 1.71; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='443.87' y2='36.28' style='stroke-width: 1.37; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='443.44,40.51 443.87,36.28 440.82,39.24 ' style='stroke-width: 1.37; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='507.74' y2='228.77' style='stroke-width: 3.00; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='503.53,228.11 507.74,228.77 504.94,225.57 ' style='stroke-width: 3.00; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='525.90' y2='147.95' style='stroke-width: 2.76; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='522.05,149.75 525.90,147.95 521.80,146.86 ' style='stroke-width: 2.76; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='526.81' y2='166.19' style='stroke-width: 3.41; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='522.76,167.49 526.81,166.19 522.87,164.58 ' style='stroke-width: 3.41; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='490.11' y2='136.67' style='stroke-width: 1.21; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='486.53,138.97 490.11,136.67 485.89,136.13 ' style='stroke-width: 1.21; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='525.71' y2='149.19' style='stroke-width: 3.33; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='521.84,150.96 525.71,149.19 521.61,148.06 ' style='stroke-width: 3.33; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='524.97' y2='164.48' style='stroke-width: 2.59; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='520.94,165.83 524.97,164.48 521.02,162.92 ' style='stroke-width: 2.59; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='498.40' y2='188.42' style='stroke-width: 2.10; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='494.17,188.89 498.40,188.42 494.86,186.06 ' style='stroke-width: 2.10; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; stroke-linejoin: miter; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='383.85' y1='160.65' x2='454.42' y2='152.91' style='stroke-width: 1.53; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='450.60,154.79 454.42,152.91 450.29,151.90 ' style='stroke-width: 1.53; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='480.46' y2='67.35' style='stroke-width: 2.09; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='478.60,71.17 480.46,67.35 476.58,69.08 ' style='stroke-width: 2.09; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='517.91' y2='137.99' style='stroke-width: 2.84; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='514.21,140.09 517.91,137.99 513.72,137.23 ' style='stroke-width: 2.84; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='496.31' y2='173.48' style='stroke-width: 1.05; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='492.17,174.48 496.31,173.48 492.50,171.59 ' style='stroke-width: 1.05; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='413.88' y2='197.60' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='410.23,195.42 413.88,197.60 412.49,193.58 ' style='stroke-width: 0.85; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='503.46' y2='107.28' style='stroke-width: 2.31; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='500.40,110.23 503.46,107.28 499.22,107.58 ' style='stroke-width: 2.31; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='392.96' y2='272.59' style='stroke-width: 1.53; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='391.19,268.73 392.96,272.59 394.09,268.49 ' style='stroke-width: 1.53; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='251.77' y2='138.25' style='stroke-width: 1.43; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='255.95,137.49 251.77,138.25 255.46,140.36 ' style='stroke-width: 1.43; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='313.51' y2='113.91' style='stroke-width: 1.81; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='317.64,114.91 313.51,113.91 316.03,117.34 ' style='stroke-width: 1.81; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='437.38' y2='138.57' style='stroke-width: 1.71; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='434.25,141.44 437.38,138.57 433.14,138.75 ' style='stroke-width: 1.71; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='443.87' y2='36.28' style='stroke-width: 1.37; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='443.44,40.51 443.87,36.28 440.82,39.24 ' style='stroke-width: 1.37; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='507.74' y2='228.77' style='stroke-width: 3.00; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='503.53,228.11 507.74,228.77 504.94,225.57 ' style='stroke-width: 3.00; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='525.90' y2='147.95' style='stroke-width: 2.76; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='522.05,149.75 525.90,147.95 521.80,146.86 ' style='stroke-width: 2.76; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='526.81' y2='166.19' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='522.76,167.49 526.81,166.19 522.87,164.58 ' style='stroke-width: 3.41; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='490.11' y2='136.67' style='stroke-width: 1.21; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='486.53,138.97 490.11,136.67 485.89,136.13 ' style='stroke-width: 1.21; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='525.71' y2='149.19' style='stroke-width: 3.33; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='521.84,150.96 525.71,149.19 521.61,148.06 ' style='stroke-width: 3.33; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='524.97' y2='164.48' style='stroke-width: 2.59; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='520.94,165.83 524.97,164.48 521.02,162.92 ' style='stroke-width: 2.59; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='383.85' y1='160.65' x2='498.40' y2='188.42' style='stroke-width: 2.10; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter;' />
+<polygon points='494.17,188.89 498.40,188.42 494.86,186.06 ' style='stroke-width: 2.10; stroke: #4D4D4D; stroke-linecap: butt; stroke-linejoin: miter; fill: #4D4D4D;' />
+<line x1='505.58' y1='145.28' x2='524.39' y2='148.93' style='stroke-width: 1.07; stroke: #333333;' />
+<text x='434.23' y='162.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='434.04' y='162.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.75' y='162.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.42' y='162.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.08' y='162.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='432.80' y='162.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='432.60' y='162.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='432.54' y='162.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='432.60' y='163.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='432.80' y='163.60' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.08' y='163.79' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.42' y='163.85' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.75' y='163.79' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='434.04' y='163.60' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='434.23' y='163.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='434.30' y='162.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='433.42' y='162.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='61.66px' lengthAdjust='spacingAndGlyphs'>Unemployment</text>
+<text x='460.69' y='76.87' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.50' y='76.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.22' y='76.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.88' y='76.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.54' y='76.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.26' y='76.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.07' y='76.87' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.00' y='77.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.07' y='77.54' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.26' y='77.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.54' y='78.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.88' y='78.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.22' y='78.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.50' y='77.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.69' y='77.54' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='460.76' y='77.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='459.88' y='77.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='31.78px' lengthAdjust='spacingAndGlyphs'>Exports</text>
+<text x='546.20' y='133.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='546.01' y='133.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.72' y='133.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.38' y='132.95' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.05' y='133.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='544.76' y='133.20' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='544.57' y='133.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='544.50' y='133.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='544.57' y='134.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='544.76' y='134.45' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.05' y='134.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.38' y='134.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.72' y='134.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='546.01' y='134.45' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='546.20' y='134.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='546.26' y='133.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='545.38' y='133.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='59.94px' lengthAdjust='spacingAndGlyphs'>GDP p.c. (dev.)</text>
+<text x='476.27' y='183.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='476.08' y='182.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.79' y='182.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.45' y='182.57' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.12' y='182.64' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='474.83' y='182.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='474.64' y='183.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='474.57' y='183.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='474.64' y='183.79' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='474.83' y='184.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.12' y='184.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.45' y='184.34' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.79' y='184.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='476.08' y='184.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='476.27' y='183.79' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='476.33' y='183.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='475.45' y='183.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='67.03px' lengthAdjust='spacingAndGlyphs'>Current Account</text>
+<text x='393.90' y='207.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.71' y='206.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.42' y='206.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.09' y='206.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.75' y='206.78' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.46' y='206.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.27' y='207.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.21' y='207.59' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.27' y='207.93' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.46' y='208.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='392.75' y='208.41' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.09' y='208.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.42' y='208.41' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.71' y='208.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.90' y='207.93' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.97' y='207.59' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='393.09' y='207.59' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='46.97px' lengthAdjust='spacingAndGlyphs'>Public Debt</text>
+<text x='525.18' y='102.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.98' y='102.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.70' y='102.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.36' y='102.26' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.03' y='102.32' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='523.74' y='102.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='523.55' y='102.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='523.48' y='103.14' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='523.55' y='103.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='523.74' y='103.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.03' y='103.95' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.36' y='104.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.70' y='103.95' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.98' y='103.76' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='525.18' y='103.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='525.24' y='103.14' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='524.36' y='103.14' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='58.38px' lengthAdjust='spacingAndGlyphs'>Finance Share</text>
+<text x='414.73' y='268.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.54' y='267.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.25' y='267.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.92' y='267.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.58' y='267.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.30' y='267.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.10' y='268.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.04' y='268.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.10' y='268.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.30' y='269.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.58' y='269.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.92' y='269.34' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.25' y='269.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.54' y='269.08' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.73' y='268.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='414.80' y='268.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='413.92' y='268.46' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='58.83px' lengthAdjust='spacingAndGlyphs'>Manufacturing</text>
+<text x='269.54' y='135.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.34' y='134.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.06' y='134.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.72' y='134.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.39' y='134.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.10' y='134.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='267.91' y='135.03' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='267.84' y='135.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='267.91' y='135.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.10' y='135.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.39' y='136.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.72' y='136.25' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.06' y='136.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.34' y='135.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.54' y='135.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='269.60' y='135.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='268.72' y='135.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='45.53px' lengthAdjust='spacingAndGlyphs'>Agriculture</text>
+<text x='298.03' y='122.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.84' y='121.87' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.55' y='121.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.22' y='121.62' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.88' y='121.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.60' y='121.87' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.40' y='122.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.34' y='122.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.40' y='122.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.60' y='123.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='296.88' y='123.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.22' y='123.38' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.55' y='123.31' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.84' y='123.12' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='298.03' y='122.83' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='298.10' y='122.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='297.22' y='122.50' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='27.52px' lengthAdjust='spacingAndGlyphs'>Mining</text>
+<text x='400.74' y='134.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.54' y='133.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.26' y='133.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.92' y='133.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.59' y='133.58' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.30' y='133.77' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.11' y='134.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.04' y='134.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.11' y='134.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.30' y='135.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.59' y='135.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.92' y='135.27' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.26' y='135.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.54' y='135.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.74' y='134.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='400.80' y='134.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='399.92' y='134.39' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='64.55px' lengthAdjust='spacingAndGlyphs'>Inequality (Gini)</text>
+<text x='423.76' y='46.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.57' y='45.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.29' y='45.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.95' y='45.45' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.61' y='45.52' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.33' y='45.71' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.14' y='46.00' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.07' y='46.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.14' y='46.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.33' y='46.95' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.61' y='47.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.95' y='47.21' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.29' y='47.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.57' y='46.95' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.76' y='46.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='423.83' y='46.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='422.95' y='46.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='45.55px' lengthAdjust='spacingAndGlyphs'>FDI Inflows</text>
+<text x='520.99' y='227.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.80' y='226.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.51' y='226.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.18' y='226.59' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.84' y='226.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.56' y='226.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.36' y='227.13' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.30' y='227.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.36' y='227.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.56' y='228.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='519.84' y='228.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.18' y='228.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.51' y='228.28' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.80' y='228.09' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.99' y='227.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='521.06' y='227.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='520.18' y='227.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='14.22px' lengthAdjust='spacingAndGlyphs'>ECI</text>
+<text x='575.40' y='146.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='575.21' y='146.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.92' y='146.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.58' y='146.11' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.25' y='146.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='573.96' y='146.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='573.77' y='146.65' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='573.70' y='146.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='573.77' y='147.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='573.96' y='147.61' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.25' y='147.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.58' y='147.87' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.92' y='147.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='575.21' y='147.61' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='575.40' y='147.33' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='575.46' y='146.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='574.58' y='146.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='87.25px' lengthAdjust='spacingAndGlyphs'>Control of Corruption</text>
+<text x='571.06' y='175.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.87' y='175.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.58' y='175.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.25' y='175.29' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.91' y='175.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.62' y='175.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.43' y='175.84' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.37' y='176.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.43' y='176.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.62' y='176.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='569.91' y='176.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.25' y='177.05' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.58' y='176.99' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.87' y='176.80' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='571.06' y='176.51' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='571.13' y='176.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='570.25' y='176.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='107.72px' lengthAdjust='spacingAndGlyphs'>Government Effectiveness</text>
+<text x='474.72' y='132.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.53' y='131.94' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.25' y='131.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.91' y='131.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.57' y='131.75' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.29' y='131.94' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.10' y='132.22' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.03' y='132.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.10' y='132.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.29' y='133.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.57' y='133.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.91' y='133.44' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.25' y='133.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.53' y='133.18' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.72' y='132.90' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='474.79' y='132.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='473.91' y='132.56' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='68.34px' lengthAdjust='spacingAndGlyphs'>Political Stability</text>
+<text x='466.63' y='147.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.44' y='146.74' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.16' y='146.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.82' y='146.48' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.48' y='146.55' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.20' y='146.74' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.01' y='147.02' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='464.94' y='147.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.01' y='147.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.20' y='147.98' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.48' y='148.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.82' y='148.24' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.16' y='148.17' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.44' y='147.98' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.63' y='147.70' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='466.70' y='147.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='465.82' y='147.36' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='75.92px' lengthAdjust='spacingAndGlyphs'>Regulatory Quality</text>
+<text x='505.13' y='160.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.94' y='159.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.66' y='159.53' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.32' y='159.47' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.98' y='159.53' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.70' y='159.73' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.51' y='160.01' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.44' y='160.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.51' y='160.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.70' y='160.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='503.98' y='161.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.32' y='161.23' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.66' y='161.16' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.94' y='160.97' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='505.13' y='160.68' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='505.20' y='160.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='504.32' y='160.35' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Rule of Law</text>
+<text x='520.26' y='198.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='520.07' y='197.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.78' y='197.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.45' y='197.61' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.11' y='197.67' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='518.82' y='197.86' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='518.63' y='198.15' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='518.57' y='198.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='518.63' y='198.82' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='518.82' y='199.11' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.11' y='199.30' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.45' y='199.37' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.78' y='199.30' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='520.07' y='199.11' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='520.26' y='198.82' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='520.33' y='198.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #FFFFFF; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<text x='519.45' y='198.49' text-anchor='middle' style='font-size: 8.54px; font-weight: bold;fill: #333333; font-family: "Liberation Sans";' textLength='100.61px' lengthAdjust='spacingAndGlyphs'>Voice and Accountability</text>
+<circle cx='175.55' cy='129.20' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='318.29,195.55 323.79,205.08 312.78,205.08 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<polygon points='655.27,51.54 663.44,51.54 663.44,43.36 655.27,43.36 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
+<circle cx='282.17' cy='181.66' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='577.46,238.62 581.55,234.53 585.63,238.62 581.55,242.71 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<circle cx='157.32' cy='114.40' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='438.61,158.67 444.12,168.21 433.10,168.21 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<circle cx='285.26' cy='86.96' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<circle cx='133.83' cy='168.16' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<polygon points='332.13,174.80 337.63,184.34 326.62,184.34 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<polygon points='713.55,96.87 721.73,96.87 721.73,88.70 713.55,88.70 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4; fill-opacity: 0.90;' />
+<polygon points='501.06,236.75 505.15,232.66 509.24,236.75 505.15,240.84 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<polygon points='557.64,229.18 561.73,225.09 565.82,229.18 561.73,233.27 ' style='stroke-width: 0.71; stroke: none; fill: #42B540; fill-opacity: 0.90;' />
+<polygon points='367.40,173.46 372.91,183.00 361.90,183.00 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000; fill-opacity: 0.90;' />
+<circle cx='241.73' cy='156.68' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F; fill-opacity: 0.90;' />
+<text x='196.34' y='125.07' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='38.91px' lengthAdjust='spacingAndGlyphs'>Cambodia</text>
+<text x='334.66' y='208.82' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='22.30px' lengthAdjust='spacingAndGlyphs'>China</text>
+<text x='685.84' y='45.62' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Liberation Sans";' textLength='42.72px' lengthAdjust='spacingAndGlyphs'>Hong Kong</text>
+<text x='261.22' y='177.54' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='37.03px' lengthAdjust='spacingAndGlyphs'>Indonesia</text>
+<text x='598.29' y='247.19' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='23.27px' lengthAdjust='spacingAndGlyphs'>Japan</text>
+<text x='142.99' y='112.47' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='18.52px' lengthAdjust='spacingAndGlyphs'>Laos</text>
+<text x='459.18' y='160.97' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='33.67px' lengthAdjust='spacingAndGlyphs'>Malaysia</text>
+<text x='264.48' y='96.89' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='34.64px' lengthAdjust='spacingAndGlyphs'>Mongolia</text>
+<text x='113.33' y='178.08' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='35.58px' lengthAdjust='spacingAndGlyphs'>Myanmar</text>
+<text x='311.16' y='191.20' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='41.27px' lengthAdjust='spacingAndGlyphs'>Philippines</text>
+<text x='696.82' y='102.75' text-anchor='middle' style='font-size: 8.54px;fill: #0099B4; font-family: "Liberation Sans";' textLength='38.92px' lengthAdjust='spacingAndGlyphs'>Singapore</text>
+<text x='484.76' y='246.66' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='47.47px' lengthAdjust='spacingAndGlyphs'>South Korea</text>
+<text x='543.42' y='225.96' text-anchor='middle' style='font-size: 8.54px;fill: #42B540; font-family: "Liberation Sans";' textLength='26.56px' lengthAdjust='spacingAndGlyphs'>Taiwan</text>
+<text x='387.96' y='175.85' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='32.75px' lengthAdjust='spacingAndGlyphs'>Thailand</text>
+<text x='261.92' y='152.71' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='31.16px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
+<text x='26.49' y='45.52' style='font-size: 9.10px; font-style: italic;fill: #666666; font-family: "Liberation Sans";' textLength='98.08px' lengthAdjust='spacingAndGlyphs'>Kruskal's Stress = 0.054</text>
+<rect x='16.68' y='36.13' width='734.34' height='249.04' style='stroke-width: 1.07; stroke: #999999;' />
+<text x='383.85' y='294.79' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 1</text>
+<text transform='translate(11.86,160.65) rotate(-90)' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 2</text>
+<rect x='187.34' y='299.70' width='393.01' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='192.82' y='316.92' style='font-size: 9.00px; font-weight: bold; font-family: "Liberation Sans";' textLength='31.00px' lengthAdjust='spacingAndGlyphs'>Cluster</text>
+<rect x='229.30' y='305.18' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='230.15' y='306.03' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #925E9F; stroke-linecap: butt;' />
+<circle cx='237.94' cy='313.82' r='4.09' style='stroke-width: 0.71; stroke: none; fill: #925E9F;' />
+<rect x='291.82' y='305.18' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='292.67' y='306.03' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #ED0000; stroke-linecap: butt;' />
+<polygon points='300.46,307.46 305.97,317.00 294.96,317.00 ' style='stroke-width: 0.71; stroke: none; fill: #ED0000;' />
+<rect x='396.17' y='305.18' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='397.02' y='306.03' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #0099B4; stroke-linecap: butt;' />
+<polygon points='400.72,317.91 408.90,317.91 408.90,309.73 400.72,309.73 ' style='stroke-width: 0.71; stroke: none; fill: #0099B4;' />
+<rect x='473.80' y='305.18' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='474.65' y='306.03' width='15.58' height='15.58' style='stroke-width: 1.28; stroke: #42B540; stroke-linecap: butt;' />
+<polygon points='478.35,313.82 482.44,309.73 486.53,313.82 482.44,317.91 ' style='stroke-width: 0.71; stroke: none; fill: #42B540;' />
+<text x='252.06' y='316.57' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='34.28px' lengthAdjust='spacingAndGlyphs'>Periphery</text>
+<text x='314.58' y='316.57' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='76.11px' lengthAdjust='spacingAndGlyphs'>Emerging Economies</text>
+<text x='418.93' y='316.57' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='49.39px' lengthAdjust='spacingAndGlyphs'>Finance Hubs</text>
+<text x='496.56' y='316.57' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='78.31px' lengthAdjust='spacingAndGlyphs'>Developmental States</text>
+<rect x='281.64' y='338.90' width='204.41' height='28.24' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='287.12' y='356.11' style='font-size: 9.00px; font-weight: bold; font-family: "Liberation Sans";' textLength='62.00px' lengthAdjust='spacingAndGlyphs'>Scaling Factor</text>
+<rect x='354.60' y='344.38' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='356.33' y1='353.02' x2='370.15' y2='353.02' style='stroke-width: 1.47; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
+<polygon points='366.16,354.47 370.15,353.02 366.16,351.56 ' style='stroke-width: 1.47; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='356.33' y1='353.02' x2='370.15' y2='353.02' style='stroke-width: 1.47; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='366.16,354.47 370.15,353.02 366.16,351.56 ' style='stroke-width: 1.47; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<rect x='398.42' y='344.38' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='400.15' y1='353.02' x2='413.97' y2='353.02' style='stroke-width: 2.22; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
+<polygon points='409.98,354.47 413.97,353.02 409.98,351.56 ' style='stroke-width: 2.22; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='400.15' y1='353.02' x2='413.97' y2='353.02' style='stroke-width: 2.22; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='409.98,354.47 413.97,353.02 409.98,351.56 ' style='stroke-width: 2.22; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<rect x='442.24' y='344.38' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='443.96' y1='353.02' x2='457.79' y2='353.02' style='stroke-width: 2.97; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt;' />
+<polygon points='453.79,354.47 457.79,353.02 453.79,351.56 ' style='stroke-width: 2.97; stroke: #BFBFBF; stroke-opacity: 0.90; stroke-linecap: butt; fill: #BFBFBF; fill-opacity: 0.90;' />
+<line x1='443.96' y1='353.02' x2='457.79' y2='353.02' style='stroke-width: 2.97; stroke: #4D4D4D; stroke-linecap: butt;' />
+<polygon points='453.79,354.47 457.79,353.02 453.79,351.56 ' style='stroke-width: 2.97; stroke: #4D4D4D; stroke-linecap: butt; fill: #4D4D4D;' />
+<text x='377.36' y='355.77' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.04</text>
+<text x='421.18' y='355.77' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.06</text>
+<text x='465.00' y='355.77' style='font-size: 8.00px; font-family: "Liberation Sans";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.08</text>
+<text x='16.68' y='27.92' style='font-size: 13.20px; font-family: "Liberation Sans";' textLength='346.59px' lengthAdjust='spacingAndGlyphs'>Multidimensional Scaling Analysis of East Asian Economies</text>
 </g>
 </g>
 </svg>

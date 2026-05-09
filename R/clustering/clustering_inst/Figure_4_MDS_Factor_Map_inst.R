@@ -119,7 +119,7 @@ cluster_shapes <- c(
 # MDS data for plotting
 mds_data <- data.frame(
   x = mds_coords[, 1],
-  y = -mds_coords[, 2],
+  y = mds_coords[, 2],
   country = rownames(mds_coords),
   cluster = cluster_factor
 )
@@ -152,17 +152,17 @@ variable_labels <- c(
   "pv_est" = "Political Stability",
   "rq_est" = "Regulatory Quality",
   "rl_est" = "Rule of Law",
-  "va_est" = "Voice and Accountability",
+  "va_est" = "Voice and Accountability"#,
   #"LibDem_est" = "Lib. Democracy",
-  "human_capital_index_est" = "HCI",
-  "sjr_per_million_est" = "Journal Publications",
-  "patent_applications_per_million_est" = "Patent Applications"
+  #"human_capital_index_est" = "HCI",
+  #"sjr_per_million_est" = "Journal Publications",
+  #"patent_applications_per_million_est" = "Patent Applications"
 )
 
 loadings_data <- data.frame(
   variable = colnames(mds_var_correlations),
   MDS1 = mds_var_correlations[1, ],
-  MDS2 = -mds_var_correlations[2, ],
+  MDS2 = mds_var_correlations[2, ],
   variable_clean = variable_labels[colnames(mds_var_correlations)]
 )
 
@@ -172,31 +172,29 @@ scale_factor <- 4
 # Select which loading vectors to show in the factor map.
 # Edit this vector to control the arrows that are plotted.
 selected_vector_variables <- c(
-  #"Unemp",
-  #"XinPercGDP",
-  #"GDPpcPPPDivFromMean", 
-  #"CAinPercGDP",
-  #"DebtPercGDP", 
-  #"FinanceShareVA",
-  #"ManufacturingShareVA",
-  #"AgricultureShareVA",
-  #"MiningShareVA",
-  #"GiniMkt",
-  #"FDInetinflow", 
-  #"FDInetoutflow",
-  #"FDIabsolute",
-  #"ECI",
+  "Unemp",
+  "XinPercGDP",
+  "GDPpcPPPDivFromMean", 
+  "CAinPercGDP",
+  "DebtPercGDP", 
+  "FinanceShareVA",
+  "ManufacturingShareVA",
+  "AgricultureShareVA",
+  "MiningShareVA",
+  "GiniMkt",
+  "FDInetinflow", 
+  "ECI",
   # World Governance Indicators (WGI) and other social capability variables
   "cc", #"Control of Corruption",
   "ge", #"Government Effectiveness",
   "pv", #"Political Stability and Absence of Violence/Terrorism",
   "rq", #"Regulatory Quality",
   "rl", #"Rule of Law",
-  "va",  #"Voice and Accountability"
-  "human_capital_index",
+  "va"#,  #"Voice and Accountability"
+  #"human_capital_index",
   # Technological capability variables
-  "sjr_per_million",
-  "patent_applications_per_million"
+  #"sjr_per_million",
+  #"patent_applications_per_million"
 )
 
 # Keep all vectors for arrows; mark selected variables for highlighting/labeling.

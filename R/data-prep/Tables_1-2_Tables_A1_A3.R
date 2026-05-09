@@ -3,7 +3,7 @@ library(here)
 source(here("packages.R"))
 
 # Note: The LaTeX tables created here with xtable() do not 100% represent the 
-# LaTeX tables in the Thesis, as further changes were made directly in LaTeX! 
+# LaTeX tables in the Paper, as further changes were made directly in LaTeX! 
 
 EA3 <- c(#"Brunei", # missing data (ECI)
   "China", 
