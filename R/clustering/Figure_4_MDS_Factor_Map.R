@@ -88,8 +88,12 @@ numeric_cols <- correlation_data %>%
 cor_matrix <- cor(numeric_cols, use = "complete.obs")
 mds_var_correlations <- cor_matrix[1:n_dims, grepl("_est$", colnames(cor_matrix)), drop = FALSE]
 
+# Comparing importance of each dimension
 
-
+eig <- mds_coords_full$eig
+eig_pos <- eig[eig > 0] # keep only positive eigenvalues
+explained_share_dim1 <- eig_pos[1] / sum(eig_pos)
+explained_share_dim2 <- eig_pos[2] / sum(eig_pos)
 
 # =============================================================================
 # CLUSTER ASSIGNMENT

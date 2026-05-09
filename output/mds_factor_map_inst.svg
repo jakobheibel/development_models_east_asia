@@ -465,6 +465,7 @@
 <text x='387.96' y='175.85' text-anchor='middle' style='font-size: 8.54px;fill: #ED0000; font-family: "Liberation Sans";' textLength='32.75px' lengthAdjust='spacingAndGlyphs'>Thailand</text>
 <text x='261.92' y='152.71' text-anchor='middle' style='font-size: 8.54px;fill: #925E9F; font-family: "Liberation Sans";' textLength='31.16px' lengthAdjust='spacingAndGlyphs'>Vietnam</text>
 <text x='26.49' y='45.52' style='font-size: 9.10px; font-style: italic;fill: #666666; font-family: "Liberation Sans";' textLength='98.08px' lengthAdjust='spacingAndGlyphs'>Kruskal's Stress = 0.054</text>
+<text x='736.34' y='45.52' text-anchor='end' style='font-size: 9.10px; font-style: italic;fill: #666666; font-family: "Liberation Sans";' textLength='146.83px' lengthAdjust='spacingAndGlyphs'>Explained Var D1=76.5% ; D2=7.3%</text>
 <rect x='16.68' y='36.13' width='734.34' height='249.04' style='stroke-width: 1.07; stroke: #999999;' />
 <text x='383.85' y='294.79' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 1</text>
 <text transform='translate(11.86,160.65) rotate(-90)' text-anchor='middle' style='font-size: 10.00px; font-family: "Liberation Sans";' textLength='80.58px' lengthAdjust='spacingAndGlyphs'>MDS Dimension 2</text>

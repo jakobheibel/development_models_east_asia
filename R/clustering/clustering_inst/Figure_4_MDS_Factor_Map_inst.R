@@ -87,8 +87,12 @@ numeric_cols <- correlation_data %>%
 cor_matrix <- cor(numeric_cols, use = "complete.obs")
 mds_var_correlations <- cor_matrix[1:n_dims, grepl("_est$", colnames(cor_matrix)), drop = FALSE]
 
+# Comparing importance of each dimension
 
-
+eig <- mds_coords_full$eig
+eig_pos <- eig[eig > 0] # keep only positive eigenvalues
+explained_share_dim1 <- eig_pos[1] / sum(eig_pos)
+explained_share_dim2 <- eig_pos[2] / sum(eig_pos)
 
 # =============================================================================
 # CLUSTER ASSIGNMENT
@@ -119,7 +123,7 @@ cluster_shapes <- c(
 # MDS data for plotting
 mds_data <- data.frame(
   x = mds_coords[, 1],
-  y = mds_coords[, 2],
+  y = -mds_coords[, 2],
   country = rownames(mds_coords),
   cluster = cluster_factor
 )
@@ -162,7 +166,7 @@ variable_labels <- c(
 loadings_data <- data.frame(
   variable = colnames(mds_var_correlations),
   MDS1 = mds_var_correlations[1, ],
-  MDS2 = mds_var_correlations[2, ],
+  MDS2 = -mds_var_correlations[2, ],
   variable_clean = variable_labels[colnames(mds_var_correlations)]
 )
 
@@ -172,18 +176,18 @@ scale_factor <- 4
 # Select which loading vectors to show in the factor map.
 # Edit this vector to control the arrows that are plotted.
 selected_vector_variables <- c(
-  "Unemp",
-  "XinPercGDP",
-  "GDPpcPPPDivFromMean", 
-  "CAinPercGDP",
-  "DebtPercGDP", 
-  "FinanceShareVA",
-  "ManufacturingShareVA",
-  "AgricultureShareVA",
-  "MiningShareVA",
-  "GiniMkt",
-  "FDInetinflow", 
-  "ECI",
+  #"Unemp",
+  #"XinPercGDP",
+  #"GDPpcPPPDivFromMean", 
+  #"CAinPercGDP",
+  #"DebtPercGDP", 
+  #"FinanceShareVA",
+  #"ManufacturingShareVA",
+  #"AgricultureShareVA",
+  #"MiningShareVA",
+  #"GiniMkt",
+  #"FDInetinflow", 
+  #"ECI",
   # World Governance Indicators (WGI) and other social capability variables
   "cc", #"Control of Corruption",
   "ge", #"Government Effectiveness",
