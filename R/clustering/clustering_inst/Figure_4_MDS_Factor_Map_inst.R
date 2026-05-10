@@ -87,8 +87,12 @@ numeric_cols <- correlation_data %>%
 cor_matrix <- cor(numeric_cols, use = "complete.obs")
 mds_var_correlations <- cor_matrix[1:n_dims, grepl("_est$", colnames(cor_matrix)), drop = FALSE]
 
+# Comparing importance of each dimension
 
-
+eig <- mds_coords_full$eig
+eig_pos <- eig[eig > 0] # keep only positive eigenvalues
+explained_share_dim1 <- eig_pos[1] / sum(eig_pos)
+explained_share_dim2 <- eig_pos[2] / sum(eig_pos)
 
 # =============================================================================
 # CLUSTER ASSIGNMENT
@@ -152,11 +156,11 @@ variable_labels <- c(
   "pv_est" = "Political Stability",
   "rq_est" = "Regulatory Quality",
   "rl_est" = "Rule of Law",
-  "va_est" = "Voice and Accountability",
+  "va_est" = "Voice and Accountability"#,
   #"LibDem_est" = "Lib. Democracy",
-  "human_capital_index_est" = "HCI",
-  "sjr_per_million_est" = "Journal Publications",
-  "patent_applications_per_million_est" = "Patent Applications"
+  #"human_capital_index_est" = "HCI",
+  #"sjr_per_million_est" = "Journal Publications",
+  #"patent_applications_per_million_est" = "Patent Applications"
 )
 
 loadings_data <- data.frame(
@@ -183,8 +187,6 @@ selected_vector_variables <- c(
   #"MiningShareVA",
   #"GiniMkt",
   #"FDInetinflow", 
-  #"FDInetoutflow",
-  #"FDIabsolute",
   #"ECI",
   # World Governance Indicators (WGI) and other social capability variables
   "cc", #"Control of Corruption",
@@ -192,11 +194,11 @@ selected_vector_variables <- c(
   "pv", #"Political Stability and Absence of Violence/Terrorism",
   "rq", #"Regulatory Quality",
   "rl", #"Rule of Law",
-  "va",  #"Voice and Accountability"
-  "human_capital_index",
+  "va"#,  #"Voice and Accountability"
+  #"human_capital_index",
   # Technological capability variables
-  "sjr_per_million",
-  "patent_applications_per_million"
+  #"sjr_per_million",
+  #"patent_applications_per_million"
 )
 
 # Keep all vectors for arrows; mark selected variables for highlighting/labeling.

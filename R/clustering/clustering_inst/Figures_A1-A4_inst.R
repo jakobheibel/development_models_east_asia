@@ -54,12 +54,13 @@ var_names <- c(
 	"pv", #"Political Stability and Absence of Violence/Terrorism",
 	"rq", #"Regulatory Quality",
 	"rl", #"Rule of Law",
-	"va",  #"Voice and Accountability"
+	"va"#,  #"Voice and Accountability"
   #"LibDem",
-  "human_capital_index",
+  #"human_capital_index",
   # Technological capability variables
-  "sjr_per_million",
-  "patent_applications_per_million")
+  #"sjr_per_million",
+  #"patent_applications_per_million"
+  )
 
 # Time periods to consider
 
@@ -179,7 +180,7 @@ for (i in seq(1, length(time_periods), by = 2)) {
   
 }
 
-# Plot all dendograms
+# Plot all dendrograms
 
 all_dendos <- gridExtra::grid.arrange(grobs = dendo_all, ncol = 2)
 
@@ -334,7 +335,7 @@ gap_stat <- clusGap(
 
 maxSE(gap_stat$Tab[, "gap"],
       gap_stat$Tab[, "SE.sim"],
-      method = "firstSEmax")  # k = 4 according to the firstSEmax method
+      method = "firstSEmax")  # k = 5 according to the firstSEmax method
 # "This, the default, has been proposed by Martin Maechler in 2012, when 
 # adding clusGap() to the cluster package, after having seen the "globalSEmax" 
 # proposal (in code) and read the "Tibs2001SEmax" proposal." 
@@ -425,4 +426,4 @@ ggsave(here("output/cluster_numbers/cluster_numbers_inst/elbow_plot_inst.svg"),
        elbow_plot,
        width = 6.5, height = 4, dpi = 300, units = "in", bg = "white")
 
-# indicating a solution with 3 or perhaps 4 clusters
+# indicating a solution with 4 or perhaps 5 clusters

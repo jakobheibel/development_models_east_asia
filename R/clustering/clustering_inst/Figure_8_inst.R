@@ -58,12 +58,13 @@ var_names <- c(
   "pv", #"Political Stability and Absence of Violence/Terrorism",
   "rq", #"Regulatory Quality",
   "rl", #"Rule of Law",
-  "va",  #"Voice and Accountability"
+  "va"#,  #"Voice and Accountability"
   #"LibDem",
-  "human_capital_index",
+  #"human_capital_index",
   # Technological capability variables
-  "sjr_per_million",
-  "patent_applications_per_million")
+  #"sjr_per_million",
+  #"patent_applications_per_million"
+  )
 
 variable_list <- list(
   `All Variables` = var_names,
@@ -78,11 +79,11 @@ variable_list <- list(
     var_names != "FinanceShareVA" &
     var_names != "ECI"],
   `Excl. Governance Variables` = var_names[
-    !var_names %in% c("cc", "ge", "pv", "rq", "rl", "va")],
+    !var_names %in% c("cc", "ge", "pv", "rq", "rl", "va")]#,
   #`Excl. Liberal Democracy Index` = var_names[!var_names %in% c("LibDem")],
-  `Excl. Technological Capability Variables` = var_names[
-    !var_names %in% c("sjr_per_million", "patent_applications_per_million")],
-  `Excl. Human Capital Index` = var_names[!var_names %in% c("human_capital_index")]
+  #`Excl. Technological Capability Variables` = var_names[
+  #  !var_names %in% c("sjr_per_million", "patent_applications_per_million")],
+  #`Excl. Human Capital Index` = var_names[!var_names %in% c("human_capital_index")]
 )
 
 # Number of country groupings
