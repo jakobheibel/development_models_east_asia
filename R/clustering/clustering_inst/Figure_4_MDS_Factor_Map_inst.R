@@ -123,7 +123,7 @@ cluster_shapes <- c(
 # MDS data for plotting
 mds_data <- data.frame(
   x = mds_coords[, 1],
-  y = -mds_coords[, 2],
+  y = mds_coords[, 2],
   country = rownames(mds_coords),
   cluster = cluster_factor
 )
