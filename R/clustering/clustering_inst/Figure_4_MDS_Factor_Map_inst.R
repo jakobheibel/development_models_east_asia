@@ -128,6 +128,12 @@ mds_data <- data.frame(
   cluster = cluster_factor
 )
 
+country_labels <- mds_data %>%
+  mutate(
+    label_x = ifelse(country == "Malaysia", x + 0.15, x),
+    label_y = ifelse(country == "Malaysia", y + 0.5, y)
+  )
+
 # Calculate convex hulls for each cluster
 hulls <- do.call(rbind, lapply(split(mds_data, mds_data$cluster), function(cluster_data) {
   if(nrow(cluster_data) < 3) {
@@ -212,7 +218,12 @@ loadings_all <- loadings_data %>%
 
 loadings_segments_all <- loadings_all
 loadings_segments_selected <- loadings_all %>% filter(is_selected)
-loadings_labels <- loadings_all %>% filter(is_selected)
+loadings_labels <- loadings_all %>%
+  mutate(
+    label_text = variable_clean,
+    #label_text = ifelse(is_selected, variable_clean, variable),
+    label_color = ifelse(is_selected, "grey20", "grey75")
+  )
 
 
 # =============================================================================
@@ -270,21 +281,22 @@ mds_plot_alternative <- ggplot() +
   geom_text_repel(data = loadings_labels,
                   aes(x = MDS1 * scale_factor,
                       y = MDS2 * scale_factor,
-                      label = variable_clean),
-                  size = 3,
-                  color = "grey20",
-                  fontface = "bold",
+            label = label_text,
+            color = I(label_color)),
+        size = 2.8,
                   bg.color = "white",
                   bg.r = 0.15,
-                  force = 2.5,
+        force = 4,
                   max.overlaps = Inf) +
   # Country points
   geom_point(data = mds_data,
              aes(x = x, y = y, color = cluster, shape = cluster),
              size = 3.5, alpha = 0.9) +
   # Country labels
-  geom_text_repel(data = mds_data,
-                  aes(x = x, y = y, label = country, color = cluster),
+  #geom_text_repel(data = country_labels,
+                  #aes(x = x, y = y, label = country, color = cluster),
+  geom_text_repel(data = country_labels,
+                  aes(x = label_x, y = label_y, label = country, color = cluster),
                   size = 3,
                   max.overlaps = Inf,
                   force = 2,
