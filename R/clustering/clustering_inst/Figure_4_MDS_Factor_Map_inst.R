@@ -11,6 +11,7 @@ library(stringr)
 library(isotone)
 library(xtable)
 library(patchwork)
+library(kableExtra)
 
 # =============================================================================
 # DATA LOADING
@@ -172,9 +173,18 @@ variable_labels <- c(
 loadings_data <- data.frame(
   variable = colnames(mds_var_correlations),
   MDS1 = mds_var_correlations[1, ],
-  MDS2 = -mds_var_correlations[2, ],
+  MDS2 = mds_var_correlations[2, ],
   variable_clean = variable_labels[colnames(mds_var_correlations)]
 )
+
+loadings_data |>
+  arrange(-abs(MDS1)) |>
+  select(variable_clean, MDS1, MDS2) |>
+  mutate(across(c(MDS1, MDS2), \(x) round(x, 2))) |>
+  kable(format = "latex", booktabs = TRUE,
+        col.names = c("Variable", "MDS Dimension 1", "MDS Dimension 2"),
+        row.names = FALSE) |>
+  kable_styling(latex_options = c("hold_position"))
 
 # Scale factor for variable vectors
 scale_factor <- 4
